@@ -1,0 +1,588 @@
+{
+  "htmlLang": "fi",
+  "profile": {
+    "name": "Bhaskar Deb",
+    "role": "Full-stack Web Developer",
+    "overallExperienceStartDate": "2017-08-01",
+    "bio": "Yli 1,5 vuoden kokemuksella C-, C++-, JavaScript- ja TypeScript-ohjelmoinnista erikoistun tehokkaiden ratkaisujen luomiseen ja monimutkaisten haasteiden ratkaisemiseen tarkalla silmällä yksityiskohtiin.",
+    "showBio": true,
+    "contact": [
+      {
+        "type": "email",
+        "value": "bhaskardeb120@gmail.com",
+        "isHidden": false,
+        "icon": "email"
+      },
+      {
+        "type": "phone",
+        "value": "+358452383277",
+        "isHidden": false,
+        "icon": "phone"
+      },
+      {
+        "type": "address",
+        "value": "Helsinki, Finland",
+        "isHidden": false,
+        "icon": "address"
+      }
+    ],
+    "socials": {
+      "isHidden": false,
+      "displayAsSection": false,
+      "sectionTitle": "SOCIAL",
+      "entries": [
+        {
+          "type": "LinkedIn",
+          "value": "https://www.linkedin.com/in/bhaskardeb1/",
+          "isHidden": false,
+          "icon": "linkedin"
+        },
+        {
+          "type": "GitHub",
+          "value": "https://github.com/BhaskarDeb2000",
+          "isHidden": false,
+          "icon": "github"
+        }
+      ]
+    },
+    "image": {
+      "showImage": true
+    }
+  },
+  "workExperience": {
+    "isHidden": false,
+    "sectionTitle": "TYÖKOKEMUS",
+    "entries": [
+      {
+        "isHidden": false,
+        "mainRole": "Keittiöassistentti",
+        "company": "Barona",
+        "duration": {
+          "from": "2024-08",
+          "to": "present",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Finland",
+          "postalCode": "00440",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Finland",
+          "text": "Helsinki, Finland",
+          "icon": "location",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "role": "Full-stack Web ysysysyd",
+            "showRole": false,
+            "projects": {
+              "isHidden": false,
+              "title": "Πιο αναλυτικά",
+              "entries": [
+                {
+                  "name": "Eldico - B2B",
+                  "technologies": ["PrestaShop", "PHP", "JavaScript", "CSS"],
+                  "showResponsibilities": true,
+                  "responsibilities": [
+                    "Βελτιστοποίηση της ενσωμάτωσης του καταστήματος με το σύστημα επιχειρησιακού σχεδιασμού τους (SoftOne).",
+                    "Δημιουργία προσαρμοσμένης λειτουργίας για Γρήγορο Καλάθι, με Ajax αναζήτηση προϊόντων, έλεγχο αποθέματος σε πραγματικό χρόνο, και αυτόματη αποθήκευση παραγγελίας για συνέχιση αργότερα. Σχεδίαση βασισμένη στο mockup που παρέθεσε η εταιρεία.",
+                    "Ανάπτυξη διεργασιών για την υποστήριξη διάφορων απαιτήσεων της εταιρείας.",
+                    "Δημιουργία πρόσθετου για τη διαχείριση XML αρχείων με λίστες προϊόντων, επιτρέποντας διάφορες επιλογές (κατασκευαστής, εξαιρέσεις κατηγοριών, προσθήκη με βάση τον κωδικό προϊόντος κ.ά.).",
+                    "Στο πλαίσιο του έργου, αναπτύχθηκαν και άλλες ιστοσελίδες της εταιρείας: amila.gr, escapesummer.gr και total-gym.gr."
+                  ]
+                },
+                {
+                  "name": "Ευθυβούλης Cash and Carry - B2B",
+                  "technologies": [
+                    "OpenCart",
+                    "Lumen",
+                    "PHP",
+                    "JavaScript",
+                    "CSS",
+                    "QuaggaJS",
+                    "Vue"
+                  ],
+                  "showResponsibilities": true,
+                  "responsibilities": [
+                    "Ενσωμάτωση του ηλεκτρονικού καταστήματος με το σύστημα επιχειρησιακού σχεδιασμού (ERP) SoftOne, χρησιμοποιώντας το Lumen microframework για βελτιστοποιημένη επικοινωνία και αυτοματισμούς.",
+                    "Ανάπτυξη διαδικασιών για την αυτόματη λήψη εικόνων προϊόντων από το Google Drive, με μετατροπή σε μορφή .webp όταν απαιτείται για καλύτερη απόδοση και βελτιωμένη εμπειρία χρήστη.",
+                    "Δημιουργία διεργασίας για την ανάκτηση και προβολή του καταλόγου προϊόντων σε μορφή flipbook, παρέχοντας διαδραστική εμπειρία στους χρήστες.",
+                    "Υπολογισμός και δυναμική παρουσίαση των ογκομετρικών στοιχείων της παραγγελίας, χρησιμοποιώντας Ajax για άμεση ενημέρωση του καλαθιού κατά την προσθήκη ή αφαίρεση προϊόντων από το καλάθι.",
+                    "Σχεδίαση και ανάπτυξη ενός module για τη σάρωση barcode προϊόντων μέσω της κάμερας του κινητού, επιτρέποντας στους χρήστες να βλέπουν άμεσα τη σελίδα του προϊόντος ή να το προσθέτουν στο καλάθι. Για την υλοποίηση χρησιμοποιήθηκε η βιβλιοθήκη QuaggaJS για τη σάρωση και η Vue για την εμφάνιση και διαχείριση της εφαρμογής."
+                  ]
+                },
+                {
+                  "name": "ICPS",
+                  "technologies": ["PHP", "JavaScript", "reCaptcha"],
+                  "showResponsibilities": true,
+                  "responsibilities": [
+                    "Αναβάθμιση προσαρμοσμένης ιστοσελίδας από PHP 5.6 σε PHP 7.4, εξασφαλίζοντας τη συμβατότητα και τη βελτιστοποίηση της απόδοσης.",
+                    "Αντικατάσταση της παλιάς λύσης Captcha με εικόνες, με την εφαρμογή του σύγχρονου Google reCaptcha. Ανέπτυξα μια επαναχρησιμοποιήσιμη abstract κλάση για τη λογική του reCaptcha, επιτρέποντας την εύκολη ενσωμάτωσή του σε διάφορες φόρμες της ιστοσελίδας.",
+                    "Αναβάθμιση του συστήματος αντικαθιστώντας το παλιό FLASH περιεχόμενο με σύγχρονες λύσεις βασισμένες σε HTML και JavaScript για βελτιωμένη συμβατότητα και απόδοση."
+                  ]
+                },
+                {
+                  "name": "Other Clients",
+                  "technologies": [
+                    "CS-Cart",
+                    "OpenCart",
+                    "PrestaShop",
+                    "Wordpress",
+                    "Joomla",
+                    "Drupal",
+                    "Lumen"
+                  ],
+                  "showResponsibilities": true,
+                  "responsibilities": [
+                    "Ανάπτυξη λύσης για την εισαγωγή δεδομένων προϊόντων από αρχεία προμηθευτών. Υλοποίηση διαδικασίας εισαγωγής προϊόντων σε CS-Cart και συλλογή λεπτομερειών (SKU, εικόνες, περιγραφή, χαρακτηριστικά) μέσω κλήσεων στο API της Icecat. Δημιουργία λογικής για την επιλογή του φθηνότερου προμηθευτή με διαθέσιμο απόθεμα, όταν το ίδιο προϊόν προσφέρεται από πολλούς προμηθευτές.",
+                    "Ανάπτυξη ιστοσελίδων και e-shop χρησιμοποιώντας έτοιμα πρότυπα και προσαρμογή τους σύμφωνα με τις απαιτήσεις του πελάτη, διασφαλίζοντας την απόλυτη προσαρμογή στις ανάγκες του έργου.",
+                    "Ανάπτυξη πρόσθετων για πλατφόρμες όπως OpenCart και WordPress για την κάλυψη διάφορων απαιτήσεων των πελατών.",
+                    "Εκτέλεση διαδικασίας καθαρισμού ιστοσελίδων, κυρίως σε WordPress, μετά από παραβίαση ασφαλείας (hack), εξασφαλίζοντας την αποκατάσταση της ασφάλειας και της λειτουργικότητας."
+                  ]
+                },
+                {
+                  "name": "Company's Projects",
+                  "technologies": [
+                    "OpenCart",
+                    "Wordpress",
+                    "Joomla",
+                    "WHMCS",
+                    "Laravel",
+                    "vBulletin"
+                  ],
+                  "showResponsibilities": true,
+                  "responsibilities": [
+                    "Δημιουργία πρόσθετου για την παρουσίαση, αναζήτηση και εισαγωγή βιβλίων από τη ΒιβλιοNet στο βιβλιοπωλείο της εταιρείας (OpenCart), προσφέροντας εύχρηστες λειτουργίες αναζήτησης και εισαγωγής για τη διευκόλυνση των διαχειριστών στο backend.",
+                    "Ανάπτυξη πρόσθετων για WHMCS, όπως η δημιουργία φόρμας αξιολόγησης για τα διάφορα τμήματα της εταιρείας και η διαχείριση της συμφωνίας GDPR μεταξύ της εταιρείας και των πελατών reseller, διασφαλίζοντας τη συμμόρφωση με τους κανονισμούς προστασίας δεδομένων.",
+                    "Κατασκευή πρόσθετων για Joomla, όπως η προβολή Forum Threads και βιβλίων ανά κατηγορία, με στόχο την καλύτερη οργάνωση και πλοήγηση για τους χρήστες.",
+                    "Ανάπτυξη πρόσθετων για WordPress για τη διαχείριση του προσωπικού και την προβολή τους, παρέχοντας εργαλεία για την εύκολη διαχείριση της ομάδας και την παρουσίαση των στοιχείων τους."
+                  ]
+                }
+              ]
+            },
+            "description": [
+              "Ανάπτυξη και συντήρηση ηλεκτρονικών καταστημάτων (OpenCart, CS-Cart, PrestaShop, κ.ά.), υλοποίηση εξατομικευμένων χαρακτηριστικών και ενσωμάτωση δεδομένων από APIs -όπως ERP συστήματα (SoftOne), Biblionet, Icecat- για τη βελτίωση των διαδικασιών, χρησιμοποιώντας Laravel για αποδοτική διαχείριση δεδομένων.",
+              "Προσαρμογή και επέκταση CMS ιστοσελίδων (WordPress, Joomla, κ.ά.) για τις εκάστοτε ανάγκες των πελατών, με τροποποιήσεις θεμάτων, ανάπτυξη plugin, βελτιστοποίηση απόδοσης, καθώς και εργασίες συμμόρφωσης με το πρότυπο προσβασιμότητας WCAG 2.0.",
+              "Διαχείριση μεταφορών δεδομένων και ενσωματώσεων, περιλαμβάνοντας μεταβάσεις πλατφορμών (Joomla σε WordPress, PhpBB σε vBulletin) και αυτοματοποίηση διαδικασιών για εισαγωγές δεδομένων προμηθευτών."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Front-end Web ysysysyd",
+        "company": "PSDGator ",
+        "duration": {
+          "from": "2017-08",
+          "to": "2017-10",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Οδυσσέως 3, Εύοσμος",
+          "postalCode": "56224",
+          "city": "Θεσσαλονίκη",
+          "countryCode": "GR",
+          "country": "Ελλάδα",
+          "text": "Οδυσσέως 3, Εύοσμος\n56224 Θεσσαλονίκη\nΕλλάδα",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "role": "Junior Front-end Web ysysysyd",
+            "showRole": false,
+            "description": [
+              "Μετατροπή σχεδίων mockup από PSD ή AI σε έγκυρη HTML και CSS ή σε θέματα WordPress."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Full-stack Web ysysysyd",
+        "company": "Freelance",
+        "duration": {
+          "from": "2015-12",
+          "to": "present",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "",
+          "postalCode": "54639",
+          "city": "Θεσσαλονίκη",
+          "countryCode": "GR",
+          "country": "Ελλάδα",
+          "text": "54639 Θεσσαλονίκη\nΕλλάδα",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "role": "Web ysysysyd",
+            "showRole": false,
+            "description": [
+              "Δημιουργία και βελτιστοποίηση ιστοσελίδων, μέσω ενσωματώσεων και προσαρμοσμένων λύσεων."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": true,
+        "mainRole": "Website Optimizations & Internet Marketing",
+        "company": "ΚΕΚ Ευρωπληροφόρηση Α.Ε. Κε.Δι.Βι.Μ. 2",
+        "duration": {
+          "from": "2014-11",
+          "to": "2015-10",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Σωκράτους 111",
+          "postalCode": "41336",
+          "city": "Λάρισα",
+          "countryCode": "GR",
+          "country": "Ελλάδα",
+          "text": "Σωκράτους 111\n41336 Λάρισα\nΕλλάδα",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "role": "Website Optimizations & Internet Marketing",
+            "showRole": false,
+            "description": [
+              "Δημιουργία και προώθηση των προφίλ της εταιρείας στο Facebook και στο Twitter.",
+              "Δημιουργία και διαχείριση διαφημιστικών καμπανιών για την εταιρεία, μέσω του Facebook και του Google AdWords.",
+              "Βελτιστοποίηση της ταχύτητας της ιστοσελίδας της εταιρείας, χρησιμοποιώντας εργαλεία όπως το PageSpeed (Google) και το YSlow (βασίζεται στους κανόνες της Yahoo). Η ιστοσελίδα της εταιρείας έχει κατασκευαστεί με το Joomla! CMS."
+            ],
+            "showDescription": false
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Front-end Web ysysysyd",
+        "company": "igraphics.gr",
+        "duration": {
+          "from": "2014-04",
+          "to": "2014-05",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Πλατεία Καρύτση 10",
+          "postalCode": "10561",
+          "city": "Αθήνα",
+          "countryCode": "GR",
+          "country": "Ελλάδα",
+          "text": "Πλατεία Καρύτση 10\n10561 Αθήνα\nΕλλάδα",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "role": "Front-end Web ysysysyd",
+            "showRole": false,
+            "description": [
+              "Ανάπτυξη διεπαφών χρήστη με βάση τα παρεχόμενα γραφικά mockup, για εφαρμογές οπτικοποίησης των αποτελεσμάτων των Ευρωεκλογών 2014 της Ιταλίας και εμφάνισης ιστορικών εκλογικών δεδομένων, χρησιμοποιώντας HTML, CSS και jQuery."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": true,
+        "mainRole": "Internship - Junior Web ysysysyd",
+        "company": "WOW group",
+        "duration": {
+          "from": "2010-06",
+          "to": "2010-08",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Φλέμινγκ 14, Μαρούσι",
+          "postalCode": "15123",
+          "city": "Αθήνα",
+          "countryCode": "GR",
+          "country": "Ελλάδα",
+          "text": "Φλέμινγκ 14, Μαρούσι\n15123 Αθήνα\nΕλλάδα",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "role": "Internship - Junior Web ysysysyd",
+            "showRole": false,
+            "description": [
+              "Επεξεργασία περιεχομένου με το FlexionPro, το σύστημα διαχείρισης περιεχομένου της εταιρείας.",
+              "Διαχείριση περιεχομένου e-shop με το Magento.",
+              "Διαχείριση περιεχομένου online τάξης με το Moodle."
+            ],
+            "showDescription": false
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "isHidden": false,
+    "sectionTitle": "KOULUTUS",
+    "entries": [
+      {
+        "type": "Liiketalouden kandidaatti",
+        "degree": "Liiketoiminnan tietotekniikan kandidaatti",
+        "school": "Haaga-Helia ammattikorkeakoulu (Helsinki, Suomi)",
+        "isHidden": false,
+        "duration": {
+          "from": "2025"
+        },
+        "isGraduation": false
+      },
+      {
+        "type": "Ammatillinen tutkinto",
+        "degree": "Full Stack Web Developer Program",
+        "school": "Business College Helsinki (Helsinki, Suomi)",
+        "score": null,
+        "isHidden": false,
+        "duration": {
+          "from": "2024"
+        },
+        "isGraduation": false
+      },
+      {
+        "type": "Insinöörin kandidaatti",
+        "degree": "B.Eng. tietotekniikassa",
+        "school": "Vaasa University Of Applied Sciences(Vaasa, Finland)",
+        "score": null,
+        "isHidden": false,
+        "duration": {
+          "from": "2024",
+          "to": "2025"
+        },
+        "isGraduation": true
+      }
+    ]
+  },
+  "projects": {
+    "isHidden": false,
+    "sectionTitle": "ΠΡΟΣΩΠΙΚΑ ΕΡΓΑ",
+    "entries": [
+      {
+        "name": "NPC Generator",
+        "technologies": ["Python", "JavaScript", "HTML", "CSS", "Bootstrap"],
+        "showDesc": true,
+        "desc": [
+          "Δημιουργία φόρμας με δυναμικά και αλληλεξαρτώμενα πεδία για επιλογές χαρακτηριστικών ενός παίκτη για το DnD (Dungeons & Dragons).",
+          "Δημιουργία endpoints σε Flask για την αποστολή της φόρμας.",
+          "Η επεξεργασία των δεδομένων της φόρμας γίνεται μέσω ενός Python script που ανέπτυξε ο φίλος μου Αργύρης Τσαγκαλίδης, ο οποίος βοήθησε επίσης με τη ρύθμιση του Flask και τις απαιτήσεις της φόρμας, καθώς εγώ έχω περιορισμένες γνώσεις για το DnD."
+        ],
+        "link": null,
+        "isHidden": true
+      },
+      {
+        "name": "Resume App",
+        "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
+        "showDesc": true,
+        "desc": [
+          "Δημιουργία μιας εφαρμογής βιογραφικού με τη χρήση σύγχρονων τεχνολογιών ιστού όπως Vite, React και TypeScript.",
+          "Εστίαση στη δημιουργία ενός responsive και δυναμικού σχεδίου με custom CSS για να προβληθούν οι επαγγελματικές μου εμπειρίες και δεξιότητες.",
+          "Ενσωμάτωση διάφορων χαρακτηριστικών όπως εκτύπωση, λήψη PDF και δυνατότητα 'expanded view' για εμφάνιση επιπλέον λεπτομερειών για τα εταιρικά και προσωπικά έργα."
+        ],
+        "link": "https://apogouv.github.io/resume/",
+        "isHidden": false
+      },
+      {
+        "name": "Scrabble Word Finder",
+        "technologies": [
+          "Vue.js",
+          "TypeScript",
+          "Tailwind",
+          "IndexedDB",
+          "Python",
+          "Vite"
+        ],
+        "showDesc": true,
+        "desc": [
+          "Ανάπτυξη εφαρμογής επικύρωσης λέξεων και εύρεσης αναγραμματισμών για το Scrabble με τη χρήση Vue.js, TypeScript και Tailwind.",
+          "Χρήση IndexedDB για αποθήκευση και ανάκτηση λιστών λέξεων για αποδοτική αναζήτηση.",
+          "Χρήση Python για προετοιμασία δεδομένων και βελτίωση της απόδοσης της αναζήτησης."
+        ],
+        "link": "https://apogouv.github.io/scrabble-word-finder/",
+        "isHidden": false
+      },
+      {
+        "name": "iTrAlytics (Thesis Project)",
+        "technologies": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "Redux",
+          "MongoDB",
+          "Socket.io",
+          "Google Analytics API",
+          "Google OAuth",
+          "MaterializeCSS"
+        ],
+        "showDesc": true,
+        "desc": [
+          "Ανάπτυξη διαδραστικού πίνακα ελέγχου ανάλυσης δεδομένων με ενσωμάτωση του Google Analytics API.",
+          "Υλοποίηση αυθεντικοποίησης χρηστών μέσω Google OAuth για ασφαλή πρόσβαση στα δεδομένα.",
+          "Κατασκευή συστήματος σχεδόν πραγματικού χρόνου* για παρακολούθηση ενεργών χρηστών με χρήση Socket.io, React και Google Real Time API.",
+          "Σχεδιασμός φιλικού προς τον χρήστη UI με MaterializeCSS και οργάνωση και διαχείριση δεδομένων εφαρμογής μέσω Redux.",
+          "Υλοποίηση backend με Node.js και Express.js, και χρήση MongoDB για διαχείριση συνεδριών και αποθήκευση δεδομένων."
+        ],
+        "link": "https://github.com/ApoGouv/itralytics",
+        "isHidden": false
+      }
+    ]
+  },
+  "certificates": {
+    "isHidden": false,
+    "sectionTitle": "ΠΙΣΤΟΠΟΙΗΤΙΚΑ",
+    "entries": [
+      {
+        "isHidden": false,
+        "org": "Udemy",
+        "name": "JavaScript, React, Node.js, PHP, κ.ά.",
+        "valid": {
+          "from": "2017-08",
+          "to": "present",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://www.udemy.com/user/apogouv/",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "Java Masterclass (σε εξέλιξη)",
+            "link": "https://www.udemy.com/course/java-the-complete-java-ysysysyd-course",
+            "linkTitle": "Java Masterclass 2025: 130+ Hours of Expert Lessons",
+            "issuedOn": "2025-02-04"
+          },
+          {
+            "isHidden": true,
+            "name": " MongoDB Essentials - Understand the Basics of MongoDB",
+            "link": "https://www.udemy.com/certificate/UC-BX1J7EAA/",
+            "issuedOn": "2019-02-23"
+          },
+          {
+            "isHidden": false,
+            "name": "Build a Social Network from Scratch: JavaScript PHP + MySQL",
+            "link": "https://www.udemy.com/certificate/UC-SGPZFM5Y/",
+            "issuedOn": "2019-01-01"
+          },
+          {
+            "isHidden": false,
+            "name": "The Complete Node.js ysysysyd Course",
+            "link": "https://www.udemy.com/certificate/UC-LW31MIKU/",
+            "issuedOn": "2017-10-09"
+          },
+          {
+            "isHidden": true,
+            "name": "Learn Object Oriented PHP By Building a Complete Website",
+            "link": "https://www.udemy.com/certificate/UC-DXBX0L7Z/",
+            "issuedOn": "2017-09-30"
+          },
+          {
+            "isHidden": false,
+            "name": "The Complete JavaScript Course: Build a Real-World Project",
+            "link": "https://www.udemy.com/certificate/UC-S8V09Y16/",
+            "issuedOn": "2017-09-11"
+          },
+          {
+            "isHidden": true,
+            "name": "JavaScript Essentials",
+            "link": "https://www.udemy.com/certificate/UC-S1LFA6UL/",
+            "issuedOn": "2017-08-14"
+          }
+        ]
+      },
+      {
+        "isHidden": true,
+        "org": "EL-Translations",
+        "name": "Video Subtitling and Subtitling Software",
+        "valid": {
+          "from": "2015-06",
+          "to": "present"
+        },
+        "showLink": false,
+        "link": null,
+        "displayType": "parentOnly",
+        "subs": []
+      }
+    ]
+  },
+  "languages": {
+    "isHidden": false,
+    "sectionTitle": "ΓΛΩΣΣΕΣ",
+    "entries": [
+      {
+        "isHidden": false,
+        "language": "Ελληνικά",
+        "rating": 5,
+        "info": "Μητρική γλώσσα"
+      },
+      {
+        "isHidden": false,
+        "language": "Αγγλικά",
+        "rating": 4,
+        "info": "Proficiency of Michigan & IELTS 7.5"
+      },
+      {
+        "isHidden": false,
+        "language": "Ισπανικά",
+        "rating": 1,
+        "info": "A2 σε εξέλιξη"
+      }
+    ]
+  },
+  "tools": {
+    "isHidden": false,
+    "sectionTitle": "ΛΟΓΙΣΜΙΚΑ & ΕΡΓΑΛΕΙΑ",
+    "entries": [
+      "VS Code",
+      "Git",
+      "Linux",
+      "Windows",
+      "Postman",
+      "DBeaver",
+      "cPanel",
+      "κ.ά."
+    ]
+  },
+  "interests": {
+    "isHidden": false,
+    "sectionTitle": "ΧΟΜΠΙ",
+    "entries": [
+      {
+        "name": "Ποδηλασία",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Χορός Salsa/ Kizomba",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Sudoku",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Ροκ μουσική",
+        "icon": "",
+        "isHidden": false
+      }
+    ]
+  }
+}

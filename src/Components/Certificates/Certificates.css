@@ -1,0 +1,64 @@
+.certificates__section {
+  padding: var(--section-padding);
+}
+
+.certificates__heading {
+  text-transform: uppercase;
+  margin-bottom: var(--mb-1);
+}
+
+.certificate__entry {
+  display: flex;
+}
+
+.certificate__data {
+  width: 100%;
+}
+
+.certificate__basic-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  margin: 0.5rem 0;
+  font-style: normal;
+}
+
+.certificate__issued-on {
+  white-space: nowrap;
+}
+
+.certificate__org {
+  color: var(--color-red);
+  /* font-size: var(--h3-font-size); */
+}
+
+.certificate__sub-cert-info {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(123 136 161 / 20%);
+}
+
+.certificate__sub-cert-issued-on {
+  font-style: italic;
+  text-align: right;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+#resume .resume__left .certificate__time.section__timeentry-time {
+  display: none;
+}
+
+#resume .resume__left .certificate__sub-certificates {
+  list-style: square;
+  padding-left: 1rem;
+}
+
+#resume .resume__left .certificate__sub-certificates ::marker {
+  color: var(--color-red);
+}

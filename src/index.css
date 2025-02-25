@@ -1,0 +1,163 @@
+:root {
+  --title-color: #434c5e;
+  --text-color: #4c566a;
+  --text-color-light: #7b88a1;
+  --resume-bg-color: #ffffff;
+  --resume-bg-color-alt: #f7f9fb;
+
+  --body-color: #f2f4f8;
+  --body-line-height: 1.1;
+  --body-font: 'Lato', sans-serif;
+
+  --root-font-size: 16px;
+
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.125rem;
+  --h3-font-size: 1.09375rem;
+
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  --font-normal: 400;
+  --font-bold: 700;
+  --font-black: 800;
+
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  --color-red: #c3423f;
+  --color-black: #211a1e;
+  --color-blue: #247ba0;
+  --color-snow: #fffcff;
+  --color-yellow: #ffba49;
+
+  --section-padding: 0.9375rem 0 0;
+
+  --rs-trans-duration: 300ms;
+  --rs-trans-duration-menu-item: 300ms;
+  --rs-trans-timing-fn: linear;
+}
+
+body.dark-mode {
+  --title-color: #eceff4;
+  --text-color: #b5c4db;
+  --text-color-light: #c4cad5;
+  --resume-bg-color: #2e3440;
+  --resume-bg-color-alt: #3b4252;
+
+  --body-color: #242933;
+
+  --color-red: #e97a74;
+  --color-black: #fffcff;
+  --color-blue: #87ceed;
+  --color-snow: #211a1e;
+  --color-yellow: #e38f32;
+
+  --color-moon: #f1c40f;
+  --color-sun: #f39c12;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--root-font-size, 16px);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  line-height: var(--body-line-height, 1.1);
+  transition:
+    background-color var(--rs-trans-duration) var(--rs-trans-timing-fn),
+    color var(--rs-trans-duration) var(--rs-trans-timing-fn);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  transition: color var(--rs-trans-duration) var(--rs-trans-timing-fn);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 3s linear infinite;
+}

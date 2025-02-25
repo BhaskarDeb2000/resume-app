@@ -1,0 +1,37 @@
+/**
+ * The @page at-rule is a CSS at-rule used to modify different aspects of printed pages. 
+ * It targets and modifies the page's dimensions, orientation, and margins.
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+ */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+/**
+ * Resume Page Print Styles
+ */
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+
+    /* Make graphics B&W for printing */
+    --resume-bg-color-alt: #f7f9fb;
+    --text-color-light: #e6e6e6;
+    --color-red: #9c9c9c;
+    --color-blue: #595959;
+  }
+
+  .main-page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}

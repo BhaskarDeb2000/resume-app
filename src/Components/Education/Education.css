@@ -1,0 +1,63 @@
+.education__section {
+  padding: var(--section-padding);
+}
+
+.education__heading {
+  text-transform: uppercase;
+  margin-bottom: var(--mb-1);
+}
+
+.education__entry {
+  display: flex;
+}
+
+.education__data {
+  width: 100%;
+}
+
+.education__basic-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 0 0 0.5rem 0;
+}
+
+.education__degree {
+  font-weight: var(--font-bold);
+  font-size: var(--h3-font-size);
+  margin: 0 0 0.5rem 0;
+}
+
+.education__period {
+  font-style: italic;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.education__score {
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.education__school-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  font-weight: var(--font-normal);
+  margin: 0 0 0.5rem 0;
+}
+
+/* Education - Left side */
+.resume__left .education__basic-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.resume__left .education__period {
+  text-align: left;
+  width: 100%;
+}

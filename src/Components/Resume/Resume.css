@@ -1,0 +1,225 @@
+.resume-container {
+  margin: 1rem auto;
+  position: relative;
+}
+
+#resume .section-title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-black);
+  text-transform: uppercase;
+  letter-spacing: 0.03rem;
+  text-align: left;
+  margin-bottom: var(--mb-1);
+}
+
+#resume .section__timeentry-time {
+  padding-right: 0.75rem;
+}
+
+#resume .section__timeentry-rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color-light, #7b88a1);
+  border-radius: 50%;
+  margin-top: 0.25rem;
+  transition: background-color var(--rs-trans-duration)
+    var(--rs-trans-timing-fn);
+}
+
+#resume .section__timeentry-line {
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: var(--text-color-light, #7b88a1);
+  transform: translate(7px, 0);
+  transition: background-color var(--rs-trans-duration)
+    var(--rs-trans-timing-fn);
+}
+
+#resume
+  .section__timeentry:hover
+  > .section__timeentry-time
+  > .section__timeentry-rounder {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+#resume
+  .section__timeentry:last-child
+  > .section__timeentry-time
+  > .section__timeentry-line {
+  height: 85%;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  grid-template-columns: 45% 55%;
+  background-color: var(--resume-bg-color, #ffffff);
+  box-shadow: 0 0 8px rgb(13 12 12 / 15%);
+  border: 1px solid var(--color-snow, #fffcff);
+  margin: 0 auto;
+  overflow: hidden;
+  transition:
+    background-color var(--rs-trans-duration) var(--rs-trans-timing-fn),
+    border-color var(--rs-trans-duration) var(--rs-trans-timing-fn);
+}
+
+.resume.resume-A4 {
+  width: 793.7007874px; /* ~ 210mm */
+  height: 1122.519685px; /* ~ 297mm */
+}
+
+.resume__left {
+  background-color: var(--resume-bg-color-alt, #f7f9fb);
+  transition: background-color var(--rs-trans-duration)
+    var(--rs-trans-timing-fn);
+}
+
+.resume__left,
+.resume__right {
+  padding: 0 1.25rem;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 767.99px) {
+  #resume-container {
+    margin: 0 0 3rem 0;
+  }
+
+  #resume {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  #resume .resume__left,
+  #resume .resume__right {
+    padding: 0 1rem;
+  }
+
+  #resume .resume__left > section:last-child,
+  #resume .resume__right > section:last-child {
+    padding-bottom: 1.2rem;
+  }
+
+  #resume .section__timeentry-time {
+    padding-right: 0.75rem;
+    margin-left: -8px;
+  }
+}
+
+/**
+ * Resume Expanded View Styles
+ */
+.expanded-view .resume.resume-A4 {
+  height: auto;
+  overflow: visible;
+}
+
+.expanded-view .resume__right {
+  padding-bottom: 0.9375rem;
+}
+
+.only-on-expanded {
+  display: none !important;
+}
+
+.expanded-view .only-on-expanded {
+  display: block !important;
+}
+
+/**
+ * Resume Print Styles
+ */
+@media print {
+  .resume-container {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .resume {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-columns: 45% 55%;
+    background-color: var(--resume-bg-color, #ffffff);
+    box-shadow: 0 0 8px rgb(13 12 12 / 15%);
+    border: 1px solid transparent;
+    margin: 0 auto;
+    overflow: hidden;
+
+    /* Black and White with grey shadows */
+    filter: grayscale(100%);
+  }
+
+  .resume.resume-A4 {
+    width: 793.7007874px; /* ~ 210mm */
+    height: 1122.519685px; /* ~ 297mm */
+  }
+
+  .resume__left {
+    background-color: var(--resume-bg-color-alt, #f7f9fb) !important;
+    border-right: 1px solid var(--resume-bg-color-alt, #f7f9fb);
+  }
+
+  .resume__left,
+  .resume__right {
+    padding: 0 1.25rem;
+  }
+
+  #resume .section__timeentry-time {
+    position: relative;
+    padding-right: 0.75rem;
+    width: 28px;
+    height: auto;
+  }
+
+  #resume .section__timeentry-rounder {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: var(--text-color-light, #7b88a1) !important;
+    border: 8px solid var(--text-color-light, #7b88a1); /* Fix - Print when Background graphics are disabled */
+    border-radius: 50%;
+    margin-top: 0.25rem;
+  }
+
+  #resume .section__timeentry-line {
+    display: block;
+    width: 2px;
+    height: 110%;
+    background-color: var(--text-color-light, #7b88a1) !important;
+    border: 1px solid var(--text-color-light, #7b88a1); /* Fix - Print when Background graphics are disabled */
+    transform: translate(7px, 0) !important;
+  }
+
+  #resume
+    .section__timeentry:last-child
+    > .section__timeentry-time
+    > .section__timeentry-line {
+    height: 85%;
+  }
+
+  /**
+   * Make sure we are not printing the expanded view and we stick to 1 A4 page.
+   */
+  .expanded-view .resume.resume-A4 {
+    width: 793.7007874px; /* ~ 210mm */
+    height: 1122.519685px; /* ~ 297mm */
+  }
+
+  .printing-mode.expanded-view .resume .workExp__work-projects,
+  .printing-mode .resume .workExp__work-projects,
+  .resume .workExp__work-projects {
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    display: none;
+  }
+}

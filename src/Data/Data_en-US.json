@@ -1,0 +1,324 @@
+{
+  "htmlLang": "en",
+  "profile": {
+    "name": "Bhaskar Deb",
+    "role": "Full Stack Developer",
+    "overallExperienceStartDate": "2020-08-01",
+    "bio": "With over 1 and half years of experience in C, C++, JavaScript and TypeScript. I specialize in creating efficient solutions and tackling complex challenges with a keen eye for detail.",
+    "showBio": true,
+    "contact": [
+      {
+        "type": "email",
+        "value": "bhaskardeb120@gmail.com",
+        "isHidden": false,
+        "icon": "email"
+      },
+      {
+        "type": "phone",
+        "value": "+358452383277",
+        "isHidden": false,
+        "icon": "phone"
+      },
+      {
+        "type": "address",
+        "value": "Helsinki, Finland",
+        "isHidden": false,
+        "icon": "address"
+      },
+      {
+        "type": "website",
+        "value": "Resume",
+        "isHidden": true,
+        "icon": "website",
+        "link": "https://cubedesigns.gr"
+      }
+    ],
+    "socials": {
+      "isHidden": false,
+      "displayAsSection": false,
+      "sectionTitle": "SOCIAL",
+      "entries": [
+        {
+          "type": "LinkedIn",
+          "value": "https://www.linkedin.com/in/bhaskardeb1//",
+          "isHidden": false,
+          "icon": "linkedin"
+        },
+        {
+          "type": "GitHub",
+          "value": "https://github.com/BhaskarDeb2000",
+          "isHidden": false,
+          "icon": "github"
+        }
+      ]
+    },
+    "image": {
+      "showImage": true
+    }
+  },
+  "workExperience": {
+    "isHidden": false,
+    "sectionTitle": "PROFESSIONAL EXPERIENCE",
+    "entries": [
+      {
+        "isHidden": false,
+        "mainRole": "Kitchen Assistant",
+        "company": "Barona",
+        "duration": {
+          "from": "2024-08",
+          "to": "present",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Finland",
+          "postalCode": "00440",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Finland",
+          "text": "Helsinki, Finland",
+          "icon": "location",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "showRole": false,
+            "projects": {
+              "isHidden": false,
+              "entries": []
+            },
+            "description": [],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Graphic Designer, Instructor & Head of Administration",
+        "company": "Future IT Valley",
+        "duration": {
+          "from": "2021-04",
+          "to": "2023-11",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Plateia Karytsi 10",
+          "postalCode": "10561",
+          "city": "Athens",
+          "countryCode": "GR",
+          "country": "Greece",
+          "text": "Plateia Karytsi 10\n10561 Athens\nGreece",
+          "icon": "location",
+          "showIcon": false
+        },
+        "work": [
+          {
+            "showRole": false,
+            "description": [],
+            "showDescription": true
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "isHidden": false,
+    "sectionTitle": "EDUCATION",
+    "entries": [
+      {
+        "type": "Bachelor in Business Administration",
+        "degree": "Bachelor in Business Information Technology",
+        "school": "Haaga-Helia University of Applied Sciences (Helsinki, Finland)",
+        "isHidden": false,
+        "duration": {
+          "from": "2025"
+        },
+        "isGraduation": false
+      },
+      {
+        "type": "Vocational Degree",
+        "degree": "Full Stack Web Developer Program",
+        "school": "Business College Helsinki",
+        "score": null,
+        "isHidden": false,
+        "duration": {
+          "from": "2024"
+        },
+        "isGraduation": false
+      },
+      {
+        "type": "Bachelor in Engineering",
+        "degree": "B.Eng. in Information Technology",
+        "school": "Vaasa University Of Applied Sciences(Vaasa, Finland)",
+        "score": null,
+        "isHidden": false,
+        "duration": {
+          "from": "2024",
+          "to": "2025"
+        },
+        "isGraduation": true
+      }
+    ]
+  },
+  "projects": {
+    "isHidden": false,
+    "sectionTitle": "PERSONAL PROJECTS",
+    "entries": [
+      {
+        "name": "NPC Generator",
+        "technologies": ["Python", "JavaScript", "HTML", "CSS", "Bootstrap"],
+        "showDesc": true,
+        "desc": [
+          "Built a form with dynamic and interdependent fields for single-player attribute options for DnD (Dungeons & Dragons).",
+          "Created endpoints in Flask to submit the form.",
+          "The processing of the form data is handled by a Python script developed by my friend Argyris Tsagkalidis, who also assisted with the Flask setup and form requirements as I have limited knowledge about DnD."
+        ],
+        "link": null,
+        "isHidden": true
+      },
+      {
+        "name": "Resume App",
+        "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
+        "showDesc": true,
+        "desc": [
+          "Built a resume app using modern web technologies such as Vite, React, and TypeScript.",
+          "Focused on building a responsive, dynamic design with custom CSS to showcase my professional experience and skills.",
+          "Integrated various features like print, PDF download, and an interactive 'expanded view' for displaying additional work and personal project details."
+        ],
+        "link": "https://apogouv.github.io/resume/",
+        "isHidden": false
+      },
+      {
+        "name": "Scrabble Word Finder",
+        "technologies": [
+          "Vue.js",
+          "TypeScript",
+          "Tailwind",
+          "IndexedDB",
+          "Python",
+          "Vite"
+        ],
+        "showDesc": true,
+        "desc": [
+          "Developed a word validation and anagram finder tool for Scrabble using Vue.js, TypeScript, and Tailwind.",
+          "Implemented IndexedDB to store and retrieve word lists for efficient searching.",
+          "Used Python for data preprocessing to prepare word lists and improve search performance."
+        ],
+        "link": "https://apogouv.github.io/scrabble-word-finder/",
+        "isHidden": false
+      },
+      {
+        "name": "iTrAlytics (Thesis Project)",
+        "technologies": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "Redux",
+          "MongoDB",
+          "Socket.io",
+          "Google Analytics API",
+          "Google OAuth",
+          "MaterializeCSS"
+        ],
+        "showDesc": true,
+        "desc": [
+          "Developed an interactive web analytics dashboard integrating Google Analytics API.",
+          "Implemented Google OAuth for secure user authentication and access to analytics data.",
+          "Built real-time* active user tracking using Socket.io, React, and Google Real Time API.",
+          "Designed a user-friendly UI with MaterializeCSS and Redux for state management.",
+          "Set up a Node.js and Express.js backend with MongoDB for session management and data persistence."
+        ],
+        "link": "https://github.com/BhaskarDeb2000/itralytics",
+        "isHidden": false
+      }
+    ]
+  },
+  "certificates": {
+    "isHidden": false,
+    "sectionTitle": "CERTIFICATES",
+    "entries": [
+      {
+        "isHidden": false,
+        "org": "Udemy",
+        "name": "JavaScript, React, Node.js, PHP, etc.",
+        "valid": {
+          "from": "2017-08",
+          "to": "present",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://www.udemy.com/user/apogouv/",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "IELTS(score: 7)",
+            "issuedOn": "2021-02-23"
+          }
+        ]
+      }
+    ]
+  },
+  "languages": {
+    "isHidden": false,
+    "sectionTitle": "LANGUAGES",
+    "entries": [
+      {
+        "isHidden": false,
+        "language": "Bengali",
+        "rating": 5,
+        "info": "Native language"
+      },
+      {
+        "isHidden": false,
+        "language": "English",
+        "rating": 4,
+        "info": "IELTS 7"
+      },
+      {
+        "isHidden": false,
+        "language": "Finnish",
+        "rating": 1,
+        "info": "Basic"
+      }
+    ]
+  },
+  "tools": {
+    "isHidden": false,
+    "sectionTitle": "SOFTWARE & TOOLS",
+    "entries": [
+      "VS Code",
+      "React",
+      "Vite",
+      "TypeScript",
+      "JvaScript",
+      "C",
+      "C++",
+      "Java",
+      "Node",
+      "Express",
+      "MongoDB",
+      "SQL",
+      "Vecel",
+      "GraphQL",
+      "REST",
+      "Git",
+      "Linux",
+      "Windows",
+      "Postman",
+      "Bash"
+    ]
+  },
+  "interests": {
+    "isHidden": false,
+    "sectionTitle": "HOBBIES",
+    "entries": [
+      {
+        "name": "Cycling",
+        "icon": "",
+        "isHidden": false
+      }
+    ]
+  }
+}
