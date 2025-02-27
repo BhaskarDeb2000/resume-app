@@ -163,11 +163,72 @@
         "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
         "showDesc": true,
         "desc": [
-          "Built a resume app using modern web technologies such as Vite, React, and TypeScript.",
+          "Built a resume app using modern web technologies such as Vite, React, and TypeScript",
           "Focused on building a responsive, dynamic design with custom CSS to showcase my professional experience and skills.",
           "Integrated various features like print, PDF download, and an interactive 'expanded view' for displaying additional work and personal project details."
         ],
         "link": "link not available",
+        "isHidden": false
+      },
+      {
+        "name": "AI chat app",
+        "technologies": ["Vite", "React", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Built a AI chat app using modern web technologies such as Vite, React, and TypeScript",
+          "Real-time AI Chat: Interact with an AI that responds instantly to your messages",
+          "Dark/Light Mode Toggle: Switch between dark and light themes for a personalized experience"
+        ],
+        "link": "https://ai-chat-app-dusky.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Full-stack Pokemon App",
+        "technologies": ["React", "JavaScript", "Axios", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Node.js Backend: API integration for fetching Pokémon data",
+          "React: For building the user interface",
+          "Toggle between light and dark themes for a better viewing experience."
+        ],
+        "link": "https://pokemonfullstack.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Currency Exchange Rates App",
+        "technologies": ["Vite", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Select the base currency and target currency from a dropdown",
+          "Displays the conversion rate in real-time",
+          "Supports multiple currencies, including USD, EUR, CAD, INR, and NPR"
+        ],
+        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "HR app",
+        "technologies": ["Vite", "React", "TypeScript", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Displays each employee’s name, role, location and start date.",
+          "Renders multiple EmployeeCard components by passing employee details as props.",
+          "Employees can be promoted or demoted through buttons, following a predefined hierarchy: Intern → Junior Developer → Developer → Senior Developer → Lead Developer."
+        ],
+        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Nasa picture of the day",
+        "technologies": ["Node", "React", "Axios", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Backend: An Express server acting as a proxy for fetching NASA API",
+          "Frontend: A React-based interface to interact with the API and display data beautifully.",
+          "Date Picker: Choose any date to explore NASA's space picture for that day.",
+          "Responsive Design: Optimized for desktops, tablets, and mobile devices."
+        ],
+        "link": "https://full-stack-nasa-best-pic.vercel.app/",
         "isHidden": false
       }
     ]

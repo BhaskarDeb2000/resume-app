@@ -159,15 +159,76 @@
     "sectionTitle": "HENKILÖKOHTAISET PROJEKTIT",
     "entries": [
       {
-        "name": "CV-sovellus",
+        "name": "Ansioluettelo-sovellus",
         "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
         "showDesc": true,
         "desc": [
-          "Rakensin CV-sovelluksen käyttäen nykyaikaisia web-teknologioita kuten Vite, React ja TypeScript.",
-          "Keskityin responsiivisen, dynaamisen suunnittelun luomiseen mukautetulla CSS:llä esitelläkseni ammatillisen kokemukseni ja taitoni.",
-          "Integroin eri ominaisuuksia kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' näyttämään lisätietoja työstä ja henkilökohtaisista projekteista."
+          "Rakensin ansioluettelo-sovelluksen käyttäen nykyaikaisia web-teknologioita, kuten Vite, React ja TypeScript.",
+          "Keskityin rakentamaan responsiivisen, dynaamisen suunnittelun mukautetulla CSS:llä esitelläkseni ammatillisen kokemukseni ja taitoni.",
+          "Integroin erilaisia ominaisuuksia, kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' lisätietojen näyttämiseksi työstä ja henkilökohtaisista projekteista."
         ],
         "link": "linkki ei saatavilla",
+        "isHidden": false
+      },
+      {
+        "name": "AI-keskustelusovellus",
+        "technologies": ["Vite", "React", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Rakensin AI-keskustelusovelluksen käyttäen nykyaikaisia web-teknologioita, kuten Vite, React ja TypeScript.",
+          "Reaaliaikainen AI-keskustelu: Keskustele tekoälyn kanssa, joka vastaa viesteihisi välittömästi.",
+          "Tumma/vaalea teema: Vaihda tumman ja vaalean teeman välillä henkilökohtaista käyttökokemusta varten."
+        ],
+        "link": "https://ai-chat-app-dusky.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Full-stack Pokémon-sovellus",
+        "technologies": ["React", "JavaScript", "Axios", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Node.js-backend: API-integraatio Pokémon-tietojen hakemiseksi.",
+          "React: Käyttöliittymän rakentamiseen.",
+          "Vaihto tumman ja vaalean teeman välillä paremman katselukokemuksen saavuttamiseksi."
+        ],
+        "link": "https://pokemonfullstack.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Valuutanvaihtokurssisovellus",
+        "technologies": ["Vite", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Valitse perusvaluutta ja kohdevaluutta pudotusvalikosta.",
+          "Näyttää muunnoskurssin reaaliajassa.",
+          "Tukee useita valuuttoja, kuten USD, EUR, CAD, INR ja NPR."
+        ],
+        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "HR-sovellus",
+        "technologies": ["Vite", "React", "TypeScript", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Näyttää jokaisen työntekijän nimen, roolin, sijainnin ja aloituspäivämäärän.",
+          "Renderöi useita EmployeeCard-komponentteja välittämällä työntekijöiden tiedot propseina.",
+          "Työntekijöitä voidaan ylentää tai alentaa painikkeiden avulla ennalta määritellyn hierarkian mukaisesti: Harjoittelija → Junior-kehittäjä → Kehittäjä → Senior-kehittäjä → Pääkehittäjä."
+        ],
+        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Nasan päivän kuva",
+        "technologies": ["Node", "React", "Axios", "Material-UI"],
+        "showDesc": true,
+        "desc": [
+          "Backend: Express-palvelin, joka toimii välityspalvelimena NASA-API:n hakemisessa.",
+          "Frontend: React-pohjainen käyttöliittymä API:n käyttämiseksi ja datan kauniisti näyttämiseksi.",
+          "Päivämäärän valinta: Valitse mikä tahansa päivämäärä tutkiaksesi Nasan avaruuskuvaa kyseiseltä päivältä.",
+          "Responsiivinen suunnittelu: Optimoitu tietokoneille, tablet-laitteille ja puhelimille."
+        ],
+        "link": "https://full-stack-nasa-best-pic.vercel.app/",
         "isHidden": false
       }
     ]
