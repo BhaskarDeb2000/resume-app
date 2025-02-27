@@ -3,7 +3,9 @@ import WorkExperience, {
   WorkExperienceProps,
 } from '@/Components/WorkExperience/WorkExperience';
 import Education, { EducationProps } from '@/Components/Education/Education';
-import Certificates, { CertificatesProps } from '@/Components/Certificates/Certificates';
+import Certificates, {
+  CertificatesProps,
+} from '@/Components/Certificates/Certificates';
 import Languages, { LanguagesProp } from '@/Components/Languages/Languages';
 import Tools, { ToolsProp } from '@/Components/Tools/Tools';
 import Interests, { InterestsProps } from '@/Components/Interests/Interests';
@@ -53,32 +55,52 @@ function Resume({ resumeData, locale, dark }: ResumeProps) {
   const shouldRenderSection = <T extends SectionData>(
     sectionData: T
   ): boolean => {
-    return Boolean(sectionData && !sectionData.isHidden && !isEmpty(sectionData.entries));
+    return Boolean(
+      sectionData && !sectionData.isHidden && !isEmpty(sectionData.entries)
+    );
   };
 
-  const leftContent = !isMobile || isPrinting
-    ? <>
-        {!certificates.isHidden && <Certificates certificatesData={certificates} />}
+  const leftContent =
+    !isMobile || isPrinting ? (
+      <>
+        {!certificates.isHidden && (
+          <Certificates certificatesData={certificates} />
+        )}
         {shouldRenderSection(tools) && <Tools toolsData={tools} />}
-        {shouldRenderSection(languages) && <Languages languagesData={languages} />}
-        {shouldRenderSection(interests) && <Interests interestsData={interests} />}
+        {shouldRenderSection(languages) && (
+          <Languages languagesData={languages} />
+        )}
+        {shouldRenderSection(interests) && (
+          <Interests interestsData={interests} />
+        )}
       </>
-    : <>
+    ) : (
+      <>
         <WorkExperience workExperienceData={workExperience} />
         {!projects.isHidden && <Projects projectsData={projects} />}
-        {!certificates.isHidden && <Certificates certificatesData={certificates} />}
-      </>;
+        {!certificates.isHidden && (
+          <Certificates certificatesData={certificates} />
+        )}
+      </>
+    );
 
-  const rightContent = !isMobile || isPrinting
-  ? <>
-      <WorkExperience workExperienceData={workExperience} />
-      {!projects.isHidden && <Projects projectsData={projects} />}
-    </>
-  : <>
-      {shouldRenderSection(tools) && <Tools toolsData={tools} />}
-      {shouldRenderSection(languages) && <Languages languagesData={languages} />}
-      {shouldRenderSection(interests) && <Interests interestsData={interests} />}
-    </>;
+  const rightContent =
+    !isMobile || isPrinting ? (
+      <>
+        <WorkExperience workExperienceData={workExperience} />
+        {!projects.isHidden && <Projects projectsData={projects} />}
+      </>
+    ) : (
+      <>
+        {shouldRenderSection(tools) && <Tools toolsData={tools} />}
+        {shouldRenderSection(languages) && (
+          <Languages languagesData={languages} />
+        )}
+        {shouldRenderSection(interests) && (
+          <Interests interestsData={interests} />
+        )}
+      </>
+    );
 
   return (
     <main
@@ -98,9 +120,7 @@ function Resume({ resumeData, locale, dark }: ResumeProps) {
           <Education educationData={education} />
           {leftContent}
         </div>
-        <div className="resume__right">
-          {rightContent}
-        </div>
+        <div className="resume__right">{rightContent}</div>
       </div>
     </main>
   );

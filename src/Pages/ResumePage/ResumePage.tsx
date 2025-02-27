@@ -7,7 +7,13 @@ import Error404Page from '@/Pages/Error404Page/Error404Page';
 
 import { displayTypeTypes } from '@/Components/Certificates/Certificates';
 
-import { EL_LOCALE, EN_LOCALE, APP_IN_DEV_MODE, APP_BASE_URL, APP_PROD_HOST } from '@/constants';
+import {
+  EL_LOCALE,
+  EN_LOCALE,
+  APP_IN_DEV_MODE,
+  APP_BASE_URL,
+  APP_PROD_HOST,
+} from '@/constants';
 import { replacePlaceholderWithYearDifference } from '@/Utils/dates';
 
 import useLocale from '@/Hooks/useLocale';
@@ -16,7 +22,7 @@ import useDarkMode from '@/Hooks/useDarkMode';
 import usePrintStatus from '@/Hooks/usePrintStatus';
 import useBodyClassManager from '@/Hooks/useBodyClassManager';
 
-import userDataElGR from '@/Data/Data_el-GR.json';
+import userDataFiFI from '@/Data/Data_fi-FI.json';
 import userDataEnUS from '@/Data/Data_en-US.json';
 
 import '@/Pages/ResumePage/ResumePage.css';
@@ -34,11 +40,11 @@ const sanitizedUserDataEnUS = {
   },
 };
 
-const sanitizedUserDataElGR = {
-  ...userDataElGR,
+const sanitizeduserDataFIFI = {
+  ...userDataFiFI,
   certificates: {
-    ...userDataElGR.certificates,
-    entries: userDataElGR.certificates.entries.map((entry) => ({
+    ...userDataFiFI.certificates,
+    entries: userDataFiFI.certificates.entries.map((entry) => ({
       ...entry,
       // Directly assert the 'displayType' property as 'displayTypeTypes' to enforce the correct type.
       // This ensures type compatibility and fixes the TypeScript error related to the 'displayType' property.
@@ -52,9 +58,9 @@ function ResumePage() {
   const { expandedView, toggleExpandedView } = useExpandedView();
   const { darkMode } = useDarkMode();
   const location = useLocation();
-  
+
   const [state, setState] = useState(
-    appLocale === EN_LOCALE ? sanitizedUserDataEnUS : sanitizedUserDataElGR
+    appLocale === EN_LOCALE ? sanitizedUserDataEnUS : sanitizeduserDataFIFI
   );
 
   // const isPrinting = usePrintStatus();
@@ -79,33 +85,38 @@ function ResumePage() {
 
   useEffect(() => {
     // Determine the initial locale based on the URL
-    const localeFromUrl = location.pathname.startsWith('/en') ? EN_LOCALE : EL_LOCALE;
+    const localeFromUrl = location.pathname.startsWith('/en')
+      ? EN_LOCALE
+      : EL_LOCALE;
     setLocale(localeFromUrl);
 
     // Normalize the pathname by ensuring it ends with a trailing slash
     const normalizedPathname = window.location.pathname.endsWith('/')
       ? window.location.pathname
       : window.location.pathname + '/';
-    
-    const pathnameAfterResume = normalizedPathname.replace("/resume/", "");
+
+    const pathnameAfterResume = normalizedPathname.replace('/resume/', '');
     // Check if both conditions are true for forced redirect
-    if (window.location.hash === "" && pathnameAfterResume !== "" && pathnameAfterResume !== "/") {
+    if (
+      window.location.hash === '' &&
+      pathnameAfterResume !== '' &&
+      pathnameAfterResume !== '/'
+    ) {
       // Clean the URL and redirect to the 404 page if both conditions are met
-      window.location.replace("/resume/#/404");
+      window.location.replace('/resume/#/404');
     }
   }, [location, setLocale]);
 
-
   useEffect(() => {
     // Set the document language attribute
-    const language = appLocale.split('-')[0];  // Get the first part (e.g., "en" or "el")
+    const language = appLocale.split('-')[0]; // Get the first part (e.g., "en" or "el")
     document.documentElement.setAttribute('lang', language);
 
     // Update state when appLocale changes
     if (appLocale === EN_LOCALE) {
       setState(sanitizedUserDataEnUS);
     } else {
-      setState(sanitizedUserDataElGR);
+      setState(sanitizeduserDataFIFI);
     }
   }, [appLocale]);
 
@@ -115,7 +126,9 @@ function ResumePage() {
   const { profile } = state;
 
   // Gather SEO meta data
-  const baseURL = APP_IN_DEV_MODE ? `http://localhost:5173${APP_BASE_URL}` : `${APP_PROD_HOST}${APP_BASE_URL}`;
+  const baseURL = APP_IN_DEV_MODE
+    ? `http://localhost:5173${APP_BASE_URL}`
+    : `${APP_PROD_HOST}${APP_BASE_URL}`;
 
   const canonicalURL = `${baseURL}`; // Always point to Greek version
   const alternateEN = `${baseURL}#/en`; // English alternative
@@ -140,7 +153,7 @@ function ResumePage() {
 
         <meta name="author" content={profile.name} />
         <meta name="copyright" content={profile.name} />
-        
+
         {/* Canonical & hreflang */}
         {/* Canonical URL (Always Greek version) */}
         <link rel="canonical" href={canonicalURL} />
@@ -156,7 +169,7 @@ function ResumePage() {
         <meta property="og:url" content={pageURL} />
         {pageImage && <meta property="og:image" content={pageImage} />}
         <meta property="og:type" content="website" />
-        
+
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
@@ -171,11 +184,7 @@ function ResumePage() {
           element={
             <>
               <Menu name={profile.name} />
-              <Resume 
-                resumeData={state}
-                locale={appLocale} 
-                dark={darkMode}
-              />
+              <Resume resumeData={state} locale={appLocale} dark={darkMode} />
             </>
           }
         />
@@ -184,11 +193,7 @@ function ResumePage() {
           element={
             <>
               <Menu name={profile.name} />
-              <Resume 
-                resumeData={state}
-                locale={appLocale} 
-                dark={darkMode}
-              />
+              <Resume resumeData={state} locale={appLocale} dark={darkMode} />
             </>
           }
         />

@@ -3,8 +3,8 @@
   "profile": {
     "name": "Bhaskar Deb",
     "role": "Full Stack Developer",
-    "overallExperienceStartDate": "2020-08-01",
-    "bio": "With over 1 and half years of experience in C, C++, JavaScript and TypeScript. I specialize in creating efficient solutions and tackling complex challenges with a keen eye for detail.",
+    "overallExperienceStartDate": "2017-08-01",
+    "bio": "Over one and a half years of experience in C, C++, JavaScript, and TypeScript. I specialize in creating efficient solutions and tackling complex challenges with a keen eye for detail.",
     "showBio": true,
     "contact": [
       {
@@ -74,11 +74,16 @@
           "showIcon": true
         },
         "work": [
+          {
+            "role": "Kitchen Assistant",
+            "showRole": false,
+            "showDescription": true
+          }
         ]
       },
       {
         "isHidden": false,
-        "mainRole": "Graphic Designer, Instructor & Head of Administration",
+        "mainRole": "Graphic Designer, Instructor, and Head of Administration",
         "company": "Future IT Valley",
         "duration": {
           "from": "2021-04",
@@ -98,9 +103,12 @@
         },
         "work": [
           {
+            "role": "Graphic Designer",
             "showRole": false,
-            "description": [],
-            "showDescription": true
+            "description": [
+              "Graphic design, teaching, and managing administration."
+            ],
+            "showDescription": false
           }
         ]
       }
@@ -111,9 +119,10 @@
     "sectionTitle": "EDUCATION",
     "entries": [
       {
-        "type": "Bachelor in Business Administration",
-        "degree": "Bachelor in Business Information Technology",
+        "type": "Bachelor of Business Administration",
+        "degree": "Bachelor of Business Information Technology",
         "school": "Haaga-Helia University of Applied Sciences (Helsinki, Finland)",
+        "score": null,
         "isHidden": false,
         "duration": {
           "from": "2025"
@@ -124,21 +133,21 @@
         "type": "Vocational Degree",
         "degree": "Full Stack Web Developer Program",
         "school": "Business College Helsinki",
-        "score": null,
         "isHidden": false,
+        "score": null,
         "duration": {
           "from": "2024"
         },
         "isGraduation": false
       },
       {
-        "type": "Bachelor in Engineering",
+        "type": "Bachelor of Engineering",
         "degree": "B.Eng. in Information Technology",
-        "school": "Vaasa University Of Applied Sciences(Vaasa, Finland)",
+        "school": "Vaasa University of Applied Sciences (Vaasa, Finland)",
         "score": null,
         "isHidden": false,
         "duration": {
-          "from": "2024", 
+          "from": "2024",
           "to": "2025"
         },
         "isGraduation": true
@@ -170,7 +179,7 @@
       {
         "isHidden": false,
         "org": "British Council",
-				"name": "IELTS",
+        "name": "IELTS",
         "valid": {
           "from": "2021-02",
           "to": "present",
@@ -182,7 +191,7 @@
         "subs": [
           {
             "isHidden": false,
-            "name": "IELTS(score: 7)",
+            "name": "IELTS (score: 7)",
             "issuedOn": "2021-02-23",
             "link": "https://www.britishcouncil.org/",
             "linkTitle": "British Council"
@@ -223,7 +232,7 @@
       "React",
       "Vite",
       "TypeScript",
-      "JvaScript",
+      "JavaScript",
       "C",
       "C++",
       "Java",
@@ -231,7 +240,7 @@
       "Express",
       "MongoDB",
       "SQL",
-      "Vecel",
+      "Vercel",
       "GraphQL",
       "REST",
       "Git",
@@ -248,7 +257,7 @@
       {
         "name": "Cycling",
         "icon": "",
-        "isHidden": false 
+        "isHidden": false
       }
     ]
   }

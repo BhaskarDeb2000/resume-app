@@ -2,9 +2,9 @@
   "htmlLang": "fi",
   "profile": {
     "name": "Bhaskar Deb",
-    "role": "Full Stack -kehittäjä",
-    "overallExperienceStartDate": "2020-08-01",
-    "bio": "Yli puolentoista vuoden kokemus C-, C++-, JavaScript- ja TypeScript-ohjelmoinnista. Erikoistun tehokkaiden ratkaisujen luomiseen ja monimutkaisten haasteiden ratkaisemiseen tarkalla yksityiskohtien huomioinnilla.",
+    "role": "Full Stack Kehittäjä",
+    "overallExperienceStartDate": "2017-08-01",
+    "bio": "Yli puolentoista vuoden kokemus C-, C++-, JavaScript- ja TypeScript-ohjelmointikielistä. Erikoistun tehokkaiden ratkaisujen luomiseen ja monimutkaisten haasteiden ratkaisemiseen tarkalla yksityiskohtien huomioimisella.",
     "showBio": true,
     "contact": [
       {
@@ -29,7 +29,7 @@
     "socials": {
       "isHidden": false,
       "displayAsSection": false,
-      "sectionTitle": "SOMESSA",
+      "sectionTitle": "SOSIAALINEN",
       "entries": [
         {
           "type": "LinkedIn",
@@ -51,7 +51,7 @@
   },
   "workExperience": {
     "isHidden": false,
-    "sectionTitle": "AMMATILLINEN KOKEMUS",
+    "sectionTitle": "AMMATILLISET KOKEMUKSET",
     "entries": [
       {
         "isHidden": false,
@@ -73,11 +73,17 @@
           "icon": "location",
           "showIcon": true
         },
-        "work": []
+        "work": [
+          {
+            "role": "Keittiöapulainen",
+            "showRole": false,
+            "showDescription": true
+          }
+        ]
       },
       {
         "isHidden": false,
-        "mainRole": "Graafinen suunnittelija, opettaja ja hallintopäällikkö",
+        "mainRole": "Graafinen Suunnittelija, Ohjaaja ja Hallintojohtaja",
         "company": "Future IT Valley",
         "duration": {
           "from": "2021-04",
@@ -97,9 +103,12 @@
         },
         "work": [
           {
+            "role": "Graafinen Suunnittelija",
             "showRole": false,
-            "description": [],
-            "showDescription": true
+            "description": [
+              "Graafinen suunnittelu, opetuksen tarjoaminen ja hallinnon johtaminen."
+            ],
+            "showDescription": false
           }
         ]
       }
@@ -111,8 +120,9 @@
     "entries": [
       {
         "type": "Kauppatieteiden kandidaatti",
-        "degree": "Kauppatieteiden kandidaatti tietotekniikassa",
+        "degree": "Kauppatieteiden kandidaatti, Liiketoimintatiedon teknologia",
         "school": "Haaga-Helia ammattikorkeakoulu (Helsinki, Suomi)",
+        "score": null,
         "isHidden": false,
         "duration": {
           "from": "2025"
@@ -121,18 +131,18 @@
       },
       {
         "type": "Ammatillinen tutkinto",
-        "degree": "Full Stack Web-kehittäjän ohjelma",
+        "degree": "Full Stack Web Developer -ohjelma",
         "school": "Business College Helsinki",
-        "score": null,
         "isHidden": false,
+        "score": null,
         "duration": {
           "from": "2024"
         },
         "isGraduation": false
       },
       {
-        "type": "Insinöörikandidaatti",
-        "degree": "B.Eng. tietotekniikassa",
+        "type": "Insinööri",
+        "degree": "B.Eng. Tietotekniikassa",
         "school": "Vaasan ammattikorkeakoulu (Vaasa, Suomi)",
         "score": null,
         "isHidden": false,
@@ -149,22 +159,22 @@
     "sectionTitle": "HENKILÖKOHTAISET PROJEKTIT",
     "entries": [
       {
-        "name": "Ansioluettelo App",
+        "name": "CV-sovellus",
         "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
         "showDesc": true,
         "desc": [
-          "Rakensin ansioluettelon sovelluksen käyttäen moderneja verkkoteknologioita kuten Vite, React ja TypeScript.",
-          "Keskityin responsiivisen ja dynaamisen suunnittelun luomiseen, jossa käytin räätälöityä CSS:ää ammatillisen kokemuksen ja taitojen esittelyyn.",
-          "Integroin useita ominaisuuksia, kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' lisätöiden ja henkilökohtaisten projektien esittämiseksi."
+          "Rakensin CV-sovelluksen käyttäen nykyaikaisia web-teknologioita kuten Vite, React ja TypeScript.",
+          "Keskityin responsiivisen, dynaamisen suunnittelun luomiseen mukautetulla CSS:llä esitelläkseni ammatillisen kokemukseni ja taitoni.",
+          "Integroin eri ominaisuuksia kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' näyttämään lisätietoja työstä ja henkilökohtaisista projekteista."
         ],
-        "link": "linkkiä ei ole saatavilla",
+        "link": "linkki ei saatavilla",
         "isHidden": false
       }
     ]
   },
   "certificates": {
     "isHidden": false,
-    "sectionTitle": "TUTKINNOT",
+    "sectionTitle": "TODISTUKSET",
     "entries": [
       {
         "isHidden": false,
@@ -172,7 +182,7 @@
         "name": "IELTS",
         "valid": {
           "from": "2021-02",
-          "to": "nykyhetki",
+          "to": "nykyinen",
           "showCurrent": true
         },
         "showLink": false,
@@ -216,7 +226,7 @@
   },
   "tools": {
     "isHidden": false,
-    "sectionTitle": "OHJELMISTOT JA TYÖKALUT",
+    "sectionTitle": "OHJELMISTOT & TYÖKALUT",
     "entries": [
       "VS Code",
       "React",
