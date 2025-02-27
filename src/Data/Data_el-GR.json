@@ -2,26 +2,26 @@
   "htmlLang": "fi",
   "profile": {
     "name": "Bhaskar Deb",
-    "role": "Full Stack Developer",
+    "role": "Full Stack -kehittäjä",
     "overallExperienceStartDate": "2020-08-01",
-    "bio": "Yli 1,5 vuoden kokemuksella C-, C++-, JavaScript- ja TypeScript-ohjelmoinnista erikoistun tehokkaiden ratkaisujen luomiseen ja monimutkaisten haasteiden ratkaisemiseen tarkalla silmällä yksityiskohtiin.",
+    "bio": "Yli puolentoista vuoden kokemus C-, C++-, JavaScript- ja TypeScript-ohjelmoinnista. Erikoistun tehokkaiden ratkaisujen luomiseen ja monimutkaisten haasteiden ratkaisemiseen tarkalla yksityiskohtien huomioinnilla.",
     "showBio": true,
     "contact": [
       {
-        "type": "Sähköposti",
+        "type": "sähköposti",
         "value": "bhaskardeb120@gmail.com",
         "isHidden": false,
         "icon": "email"
       },
       {
-        "type": "Puhelin",
+        "type": "puhelin",
         "value": "+358452383277",
         "isHidden": false,
         "icon": "phone"
       },
       {
-        "type": "Osoite",
-        "value": "Helsinki, Finland",
+        "type": "osoite",
+        "value": "Helsinki, Suomi",
         "isHidden": false,
         "icon": "address"
       }
@@ -29,11 +29,11 @@
     "socials": {
       "isHidden": false,
       "displayAsSection": false,
-      "sectionTitle": "SOCIAL",
+      "sectionTitle": "SOMESSA",
       "entries": [
         {
           "type": "LinkedIn",
-          "value": "https://www.linkedin.com/in/bhaskardeb1/",
+          "value": "https://www.linkedin.com/in/bhaskardeb1//",
           "isHidden": false,
           "icon": "linkedin"
         },
@@ -51,11 +51,11 @@
   },
   "workExperience": {
     "isHidden": false,
-    "sectionTitle": "TYÖKOKEMUS",
+    "sectionTitle": "AMMATILLINEN KOKEMUS",
     "entries": [
       {
         "isHidden": false,
-        "mainRole": "Keittiöassistentti",
+        "mainRole": "Keittiöapulainen",
         "company": "Barona",
         "duration": {
           "from": "2024-08",
@@ -64,16 +64,44 @@
           "showIcon": false
         },
         "address": {
-          "street": "Helsinki, Finland",
+          "street": "Helsinki, Suomi",
           "postalCode": "00440",
           "city": "Helsinki",
           "countryCode": "FI",
-          "country": "Finland",
-          "text": "Helsinki, Finland",
+          "country": "Suomi",
+          "text": "Helsinki, Suomi",
           "icon": "location",
-          "showIcon": false
+          "showIcon": true
         },
         "work": []
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Graafinen suunnittelija, opettaja ja hallintopäällikkö",
+        "company": "Future IT Valley",
+        "duration": {
+          "from": "2021-04",
+          "to": "2023-11",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Sylhet, Bangladesh",
+          "postalCode": "3100",
+          "city": "Sylhet",
+          "countryCode": "BD",
+          "country": "Bangladesh",
+          "text": "Sylhet, Bangladesh",
+          "icon": "location",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "showRole": false,
+            "description": [],
+            "showDescription": true
+          }
+        ]
       }
     ]
   },
@@ -82,8 +110,8 @@
     "sectionTitle": "KOULUTUS",
     "entries": [
       {
-        "type": "Liiketalouden kandidaatti",
-        "degree": "Liiketoiminnan tietotekniikan kandidaatti",
+        "type": "Kauppatieteiden kandidaatti",
+        "degree": "Kauppatieteiden kandidaatti tietotekniikassa",
         "school": "Haaga-Helia ammattikorkeakoulu (Helsinki, Suomi)",
         "isHidden": false,
         "duration": {
@@ -93,8 +121,8 @@
       },
       {
         "type": "Ammatillinen tutkinto",
-        "degree": "Full Stack Web Developer Program",
-        "school": "Business College Helsinki (Helsinki, Suomi)",
+        "degree": "Full Stack Web-kehittäjän ohjelma",
+        "school": "Business College Helsinki",
         "score": null,
         "isHidden": false,
         "duration": {
@@ -103,9 +131,9 @@
         "isGraduation": false
       },
       {
-        "type": "Insinöörin kandidaatti",
+        "type": "Insinöörikandidaatti",
         "degree": "B.Eng. tietotekniikassa",
-        "school": "Vaasa University Of Applied Sciences(Vaasa, Finland)",
+        "school": "Vaasan ammattikorkeakoulu (Vaasa, Suomi)",
         "score": null,
         "isHidden": false,
         "duration": {
@@ -121,22 +149,22 @@
     "sectionTitle": "HENKILÖKOHTAISET PROJEKTIT",
     "entries": [
       {
-        "name": "Resume App",
+        "name": "Ansioluettelo App",
         "technologies": ["Vite", "React", "TypeScript", "CSS", "Playwright"],
         "showDesc": true,
         "desc": [
-          "Rakensin ansioluettelosovelluksen käyttämällä nykyaikaisia web-teknologioita, kuten Viteä, Reactia ja TypeScriptiä.",
-          "Keskityin luomaan responsiivisen ja dynaamisen suunnittelun mukautetulla CSS:llä esitelläkseni ammatillista kokemustani ja taitojani.",
-          "Integroin erilaisia ominaisuuksia, kuten tulostuksen, PDF-latauksen ja interaktiivisen 'laajennetun näkymän' lisätyille työ- ja projektitiedoille."
+          "Rakensin ansioluettelon sovelluksen käyttäen moderneja verkkoteknologioita kuten Vite, React ja TypeScript.",
+          "Keskityin responsiivisen ja dynaamisen suunnittelun luomiseen, jossa käytin räätälöityä CSS:ää ammatillisen kokemuksen ja taitojen esittelyyn.",
+          "Integroin useita ominaisuuksia, kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' lisätöiden ja henkilökohtaisten projektien esittämiseksi."
         ],
-        "link": "link not yet",
+        "link": "linkkiä ei ole saatavilla",
         "isHidden": false
       }
     ]
   },
   "certificates": {
     "isHidden": false,
-    "sectionTitle": "SERTIFIKAATIT",
+    "sectionTitle": "TUTKINNOT",
     "entries": [
       {
         "isHidden": false,
@@ -144,7 +172,7 @@
         "name": "IELTS",
         "valid": {
           "from": "2021-02",
-          "to": "present",
+          "to": "nykyhetki",
           "showCurrent": true
         },
         "showLink": false,
@@ -153,7 +181,7 @@
         "subs": [
           {
             "isHidden": false,
-            "name": "IELTS(score: 7)",
+            "name": "IELTS (pisteet: 7)",
             "issuedOn": "2021-02-23",
             "link": "https://www.britishcouncil.org/",
             "linkTitle": "British Council"
@@ -180,21 +208,21 @@
       },
       {
         "isHidden": false,
-        "language": "suomeksi",
+        "language": "Suomi",
         "rating": 1,
-        "info": "Perus"
+        "info": "Perustaso"
       }
     ]
   },
   "tools": {
     "isHidden": false,
-    "sectionTitle": "OHJELMISTO JA TYÖKALUT",
+    "sectionTitle": "OHJELMISTOT JA TYÖKALUT",
     "entries": [
       "VS Code",
       "React",
       "Vite",
       "TypeScript",
-      "JvaScript",
+      "JavaScript",
       "C",
       "C++",
       "Java",
@@ -214,7 +242,7 @@
   },
   "interests": {
     "isHidden": false,
-    "sectionTitle": "HARRASTUS",
+    "sectionTitle": "HARRASTUKSET",
     "entries": [
       {
         "name": "Pyöräily",
