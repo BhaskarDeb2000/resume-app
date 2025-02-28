@@ -20,7 +20,7 @@ export const APP_IN_DEV_MODE = import.meta.env?.DEV ?? false;
  * Vite provides `import.meta.env.BASE_URL`, but we ensure a fallback.
  * @constant
  */
-export const APP_BASE_URL = import.meta.env.BASE_URL ?? '/resume/';
+export const APP_BASE_URL = import.meta.env.BASE_URL ?? '/';
 
 /**
  * The production host of the app.

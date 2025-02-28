@@ -18,7 +18,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
 
   const config: UserConfig = {
     // @see https://vitejs.dev/config/shared-options.html#base
-    base: '/resume/',
+    base: '/',
     plugins: [react(), svgr()],
     resolve: {
       alias: {
@@ -68,7 +68,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
   };
 
   if (command === 'build' || (command === 'serve' && mode === 'production')) {
-    config.base = '/resume/';
+    config.base = '/';
 
     if (config.build !== undefined) {
       config.build.minify = true;

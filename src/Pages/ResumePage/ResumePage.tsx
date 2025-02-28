@@ -95,7 +95,7 @@ function ResumePage() {
       ? window.location.pathname
       : window.location.pathname + '/';
 
-    const pathnameAfterResume = normalizedPathname.replace('/resume/', '');
+    const pathnameAfterResume = normalizedPathname.replace('/', '');
     // Check if both conditions are true for forced redirect
     if (
       window.location.hash === '' &&
