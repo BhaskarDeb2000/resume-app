@@ -215,7 +215,7 @@
           "Renderöi useita EmployeeCard-komponentteja välittämällä työntekijöiden tiedot propseina.",
           "Työntekijöitä voidaan ylentää tai alentaa painikkeiden avulla ennalta määritellyn hierarkian mukaisesti: Harjoittelija → Junior-kehittäjä → Kehittäjä → Senior-kehittäjä → Pääkehittäjä."
         ],
-        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "link": "https://hr-app-three.vercel.app/",
         "isHidden": false
       },
       {

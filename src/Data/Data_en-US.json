@@ -215,7 +215,7 @@
           "Renders multiple EmployeeCard components by passing employee details as props.",
           "Employees can be promoted or demoted through buttons, following a predefined hierarchy: Intern → Junior Developer → Developer → Senior Developer → Lead Developer."
         ],
-        "link": "https://currency-exchange-app-viio.vercel.app/",
+        "link": "https://hr-app-three.vercel.app/",
         "isHidden": false
       },
       {
