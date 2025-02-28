@@ -125,9 +125,10 @@
         "score": null,
         "isHidden": false,
         "duration": {
-          "from": "2025"
+          "from": "2025",
+          "to": "2027"
         },
-        "isGraduation": false
+        "isGraduation": true
       },
       {
         "type": "Vocational Degree",
@@ -136,9 +137,10 @@
         "isHidden": false,
         "score": null,
         "duration": {
-          "from": "2024"
+          "from": "2024",
+          "to": "2025"
         },
-        "isGraduation": false
+        "isGraduation": true
       },
       {
         "type": "Bachelor of Engineering",

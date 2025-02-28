@@ -8,19 +8,19 @@
     "showBio": true,
     "contact": [
       {
-        "type": "sähköposti",
+        "type": "email",
         "value": "bhaskardeb120@gmail.com",
         "isHidden": false,
         "icon": "email"
       },
       {
-        "type": "puhelin",
+        "type": "phone",
         "value": "+358452383277",
         "isHidden": false,
         "icon": "phone"
       },
       {
-        "type": "osoite",
+        "type": "address",
         "value": "Helsinki, Suomi",
         "isHidden": false,
         "icon": "address"
@@ -120,14 +120,15 @@
     "entries": [
       {
         "type": "Kauppatieteiden kandidaatti",
-        "degree": "Kauppatieteiden kandidaatti, Liiketoimintatiedon teknologia",
+        "degree": "Liiketoiminnan tietotekniikan kandidaatti",
         "school": "Haaga-Helia ammattikorkeakoulu (Helsinki, Suomi)",
         "score": null,
         "isHidden": false,
         "duration": {
-          "from": "2025"
+          "from": "2025",
+          "to": "2027"
         },
-        "isGraduation": false
+        "isGraduation": true
       },
       {
         "type": "Ammatillinen tutkinto",
@@ -136,9 +137,10 @@
         "isHidden": false,
         "score": null,
         "duration": {
-          "from": "2024"
+          "from": "2024",
+          "to": "2025"
         },
-        "isGraduation": false
+        "isGraduation": true
       },
       {
         "type": "Insinööri",
