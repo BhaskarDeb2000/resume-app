@@ -4,11 +4,10 @@
   "private": true,
   "license": "MIT",
   "version": "6.0.0",
-  "author": "Apostolos Gouvalas",
-  "homepage": "https://apogouv.github.io/resume/#",
+  "author": "Bhaskar Deb",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ApoGouv/resume.git"
+    "url": "https://github.com/BhaskarDeb2000/resume-app"
   },
   "keywords": [
     "resume",

@@ -36,6 +36,8 @@ public/img/*.jpg
 public/img/*.jpeg
 public/img/*.gif
 
+package-lock.json
+
 # Ignore ALL pdf files
 
 *.pdf
