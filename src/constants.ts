@@ -20,14 +20,14 @@ export const APP_IN_DEV_MODE = import.meta.env?.DEV ?? false;
  * Vite provides `import.meta.env.BASE_URL`, but we ensure a fallback.
  * @constant
  */
-export const APP_BASE_URL = import.meta.env.BASE_URL ?? '/';
+export const APP_BASE_URL = import.meta.env.BASE_URL ?? 'https://bhaskar-deb.vercel.app/';
 
 /**
  * The production host of the app.
  * This is used when constructing full URLs for meta tags, social sharing, etc.
  * @constant
  */
-export const APP_PROD_HOST = 'https://apogouv.github.io';
+export const APP_PROD_HOST = 'https://bhaskar-deb.vercel.app/';
 
 /**
  * Finnish locale constant used for representing the Finnish language and region.
