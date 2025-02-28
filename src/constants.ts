@@ -30,7 +30,7 @@ export const APP_BASE_URL = import.meta.env.BASE_URL ?? '/';
 export const APP_PROD_HOST = 'https://apogouv.github.io';
 
 /**
- * Greek locale constant used for representing the Greek language and region.
+ * Finnish locale constant used for representing the Finnish language and region.
  * @constant
  */
 export const EL_LOCALE = 'el-GR';

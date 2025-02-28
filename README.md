@@ -9,7 +9,7 @@ The app features a responsive design, providing a one-page layout with dimension
 ## Key Features 🎛️
 
 - [x] **Light and Dark Mode** 🌞/🌕: Seamlessly switch between light and dark themes for optimal readability.
-- [x] **Multilingual Support** 🇬🇷/🇺🇸: Available in Greek and English languages.
+- [x] **Multilingual Support**: Available in Finnish and English languages.
 - [x] **PDF Downloads** 📄: Easily download resume in pdf format in two variations (colored and grayscale) for each supported language.
 - [x] **Quick Print** 🖨️: Conveniently print the resume with a single click.
 - [x] **Mobile Tweaks** 🎛️ : Conditionally change render order of components on mobile devices.

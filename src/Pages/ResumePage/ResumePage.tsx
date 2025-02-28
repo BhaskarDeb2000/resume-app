@@ -102,8 +102,10 @@ function ResumePage() {
       pathnameAfterResume !== '' &&
       pathnameAfterResume !== '/'
     ) {
+      console.log('pathnameAfterResume', pathnameAfterResume);
+
       // Clean the URL and redirect to the 404 page if both conditions are met
-      //window.location.replace('/resume/#/404');
+      window.location.replace('/resume/#/404');
     }
   }, [location, setLocale]);
 
@@ -130,9 +132,9 @@ function ResumePage() {
     ? `http://localhost:5173${APP_BASE_URL}`
     : `${APP_PROD_HOST}${APP_BASE_URL}`;
 
-  const canonicalURL = `${baseURL}`; // Always point to Greek version
+  const canonicalURL = `${baseURL}`; // Always point to Finnish version
   const alternateEN = `${baseURL}#/en`; // English alternative
-  const alternateEL = `${baseURL}`; // Greek alternative
+  const alternateEL = `${baseURL}`; // Finnish alternative
 
   // Set the URL based on locale
   const pageURL = appLocale === EN_LOCALE ? alternateEN : alternateEL;
@@ -155,7 +157,7 @@ function ResumePage() {
         <meta name="copyright" content={profile.name} />
 
         {/* Canonical & hreflang */}
-        {/* Canonical URL (Always Greek version) */}
+        {/* Canonical URL (Always Finnish version) */}
         <link rel="canonical" href={canonicalURL} />
 
         {/* Hreflang (Language alternatives) */}
