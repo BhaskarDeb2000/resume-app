@@ -193,7 +193,7 @@ async function saveCurrentPageToPDF(page) {
 const generatePDF = async ({
   runDevServer = false,
   onPort = 5173,
-  onBaseURL = '/resume/',
+  onBaseURL = '/',
 }) => {
   console.log(' 🏁 generatePDF > running...');
 
