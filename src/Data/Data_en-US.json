@@ -77,7 +77,7 @@
           {
             "role": "Kitchen Assistant",
             "showRole": false,
-            "showDescription": true
+            "showDescription": false
           }
         ]
       },
@@ -308,7 +308,8 @@
       "Linux",
       "Windows",
       "Postman",
-      "Bash"
+      "Bash",
+      "AWS"
     ]
   },
   "interests": {
@@ -317,6 +318,21 @@
     "entries": [
       {
         "name": "Cycling",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Photography",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Learning New Languages",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Coding",
         "icon": "",
         "isHidden": false
       }

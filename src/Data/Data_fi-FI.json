@@ -59,7 +59,7 @@
         "company": "Barona",
         "duration": {
           "from": "2024-08",
-          "to": "present",
+          "to": "Läsnä",
           "icon": "calendar",
           "showIcon": false
         },
@@ -308,7 +308,8 @@
       "Linux",
       "Windows",
       "Postman",
-      "Bash"
+      "Bash",
+      "AWS"
     ]
   },
   "interests": {
@@ -317,6 +318,21 @@
     "entries": [
       {
         "name": "Pyöräily",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Valokuvaus",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Uusien kielten oppiminen",
+        "icon": "",
+        "isHidden": false
+      },
+      {
+        "name": "Ohjelmointi",
         "icon": "",
         "isHidden": false
       }

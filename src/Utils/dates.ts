@@ -224,7 +224,7 @@ export const getDateFormatIntl = (
 };
 
 const presentTranslationByLocale: Record<string, string> = {
-  [EL_LOCALE]: 'Σήμερα',
+  [EL_LOCALE]: 'Läsnä',
   [EN_LOCALE]: 'Present',
 };
 
