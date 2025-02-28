@@ -169,7 +169,7 @@
           "Focused on building a responsive, dynamic design with custom CSS to showcase my professional experience and skills.",
           "Integrated various features like print, PDF download, and an interactive 'expanded view' for displaying additional work and personal project details."
         ],
-        "link": "https://bhaskar-deb.vercel.app/",
+        "link": "https://bhaskar-deb.vercel.app/#/en",
         "isHidden": false
       },
       {
@@ -231,6 +231,19 @@
           "Responsive Design: Optimized for desktops, tablets, and mobile devices."
         ],
         "link": "https://full-stack-nasa-best-pic.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Movie App",
+        "technologies": ["React", "Redux", "Tailwind CSS", "Axios"],
+        "showDesc": true,
+        "desc": [
+          "Browse All Movies: Display all available movies with details like title, poster, and description.",
+          "Search for Movies: Users can search for movies by title to find exactly what they're looking for.",
+          "User Authentication: Users can sign up and sign in to their accounts to personalize their movie experience.",
+          "Watchlist: Users can add movies to their watchlist to keep track of what they want to watch."
+        ],
+        "link": "https://movie-hub-wheat.vercel.app/",
         "isHidden": false
       }
     ]

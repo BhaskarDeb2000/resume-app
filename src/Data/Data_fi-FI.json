@@ -169,7 +169,7 @@
           "Keskityin rakentamaan responsiivisen, dynaamisen suunnittelun mukautetulla CSS:llä esitelläkseni ammatillisen kokemukseni ja taitoni.",
           "Integroin erilaisia ominaisuuksia, kuten tulostus, PDF-lataus ja interaktiivinen 'laajennettu näkymä' lisätietojen näyttämiseksi työstä ja henkilökohtaisista projekteista."
         ],
-        "link": "https://bhaskar-deb.vercel.app/",
+        "link": "https://bhaskar-deb.vercel.app/#/en",
         "isHidden": false
       },
       {
@@ -231,6 +231,19 @@
           "Responsiivinen suunnittelu: Optimoitu tietokoneille, tablet-laitteille ja puhelimille."
         ],
         "link": "https://full-stack-nasa-best-pic.vercel.app/",
+        "isHidden": false
+      },
+      {
+        "name": "Elokuva Sovellus",
+        "technologies": ["React", "Redux", "Tailwind CSS", "Axios"],
+        "showDesc": true,
+        "desc": [
+          "Selaa Kaikkia Elokuvia: Näytä kaikki saatavilla olevat elokuvat, kuten otsikko, juliste ja kuvaus.",
+          "Etsi Elokuvia: Käyttäjät voivat etsiä elokuvia otsikon mukaan löytääkseen tarkalleen etsimänsä.",
+          "Käyttäjätunnistus: Käyttäjät voivat rekisteröityä ja kirjautua sisään tileilleen henkilökohtaista elokuvakokemusta varten.",
+          "Watchlist: Käyttäjät voivat lisätä elokuvia katselulistalleen seuratakseen, mitä he haluavat katsoa."
+        ],
+        "link": "https://movie-hub-wheat.vercel.app/",
         "isHidden": false
       }
     ]
