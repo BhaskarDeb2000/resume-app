@@ -103,7 +103,7 @@ function ResumePage() {
       pathnameAfterResume !== '/'
     ) {
       // Clean the URL and redirect to the 404 page if both conditions are met
-      window.location.replace('/resume/#/404');
+      //window.location.replace('/resume/#/404');
     }
   }, [location, setLocale]);
 

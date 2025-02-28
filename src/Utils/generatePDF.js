@@ -22,12 +22,12 @@ async function extractFullNameAndLocaleFromTitle(page) {
     const parts = title.split(' - ');
     fullName = parts[0].replace(/\s+/g, '-');
 
-    // Regular expression to check for Greek characters
-    const greekRegex = /[Α-ω]/;
+    // Regular expression to check for Finnish characters
+    const finnishRegex = /[ÅÄÖåäö]/;
 
     // Check if the name contains any Greek characters
-    const isGreek = greekRegex.test(fullName);
-    locale = isGreek ? 'el-GR' : 'en-US';
+    const isFinnish = finnishRegex.test(fullName);
+    locale = isFinnish ? 'el-GR' : 'en-US';
   }
 
   return { fullName, locale };
@@ -67,7 +67,7 @@ async function getCvFileName(page) {
   console.log(' 🚀 getCvFileName > running...');
 
   // Default file name
-  let cvFileName = 'Απόστολος-Γουβάλας-Βιογραφικό';
+  let cvFileName = 'Bhaskar-Deb-CV';
 
   try {
     // Validate input
@@ -83,7 +83,7 @@ async function getCvFileName(page) {
 
     // Determine file name based on locale and fullName
     cvFileName = fullName
-      ? `${fullName}-${locale === 'en-US' ? 'CV' : 'Βιογραφικό'}`
+      ? `${fullName}-${locale === 'en-US' ? 'CV' : 'Ansioluettelo'}`
       : cvFileName;
 
     return cvFileName;

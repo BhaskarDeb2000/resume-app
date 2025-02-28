@@ -49,46 +49,52 @@ function Menu({ name }: MenuProps) {
   const darkModeIconKey = darkMode ? 'sun' : 'moon';
 
   // Define dictionary for localized strings
-  const localizedStrings = useMemo<LocalizedStringsType>(() => ({
-    [EN_LOCALE]: {
-      print: 'Print resume',
-      downloadPdfsWrapper:
-        'Download resume in PDF format (colored or grayscale)',
-      downloadPdf: 'Download colored resume in PDF format',
-      downloadGrayscalePdf: 'Download grayscaled resume in PDF format',
-      toggleLocale: `Toggle locale to ${EL_LOCALE}`,
-      toggleExpandedView: `Toggle expanded view ${expandedView ? 'Off' : 'On'}`,
-      toggleDarkMode: `Toggle dark mode ${darkMode ? 'Off' : 'On'}`,
-      bio: 'CV',
-    },
-    [EL_LOCALE]: {
-      print: 'Εκτύπωση βιογραφικού',
-      downloadPdfsWrapper:
-        'Κατεβάστε το βιογραφικό σε μορφή PDf (έγχρωμο ή σε αποχρώσεις του γκρι)',
-      downloadPdf: 'Κατεβάστε το έγχρωμο βιογραφικό σε μορφή PDf',
-      downloadGrayscalePdf:
-        'Κατεβάστε το βιογραφικό σε μορφή PDf σε αποχρώσεις του γκρι',
-      toggleLocale: `Εναλλαγή γλώσσας σε ${EN_LOCALE}`,
-      toggleExpandedView: `${
-        expandedView ? 'Απενεργοποίηση' : 'Ενεργοποίηση'
-      } διευρυμένης προβολής`,
-      toggleDarkMode: `${
-        darkMode ? 'Απενεργοποίηση' : 'Ενεργοποίηση'
-      } σκούρου θέματος`,
-      bio: 'Βιογραφικό',
-    },
-  }), [expandedView, darkMode]);
+  const localizedStrings = useMemo<LocalizedStringsType>(
+    () => ({
+      [EN_LOCALE]: {
+        print: 'Print resume',
+        downloadPdfsWrapper:
+          'Download resume in PDF format (colored or grayscale)',
+        downloadPdf: 'Download colored resume in PDF format',
+        downloadGrayscalePdf: 'Download grayscaled resume in PDF format',
+        toggleLocale: `Toggle locale to ${EL_LOCALE}`,
+        toggleExpandedView: `Toggle expanded view ${expandedView ? 'Off' : 'On'}`,
+        toggleDarkMode: `Toggle dark mode ${darkMode ? 'Off' : 'On'}`,
+        bio: 'CV',
+      },
+      [EL_LOCALE]: {
+        print: 'Tulosta ansioluettelo',
+        downloadPdfsWrapper:
+          'Lataa ansioluettelo PDF-muodossa (värillisenä tai harmaasävyisenä)',
+        downloadPdf: 'Lataa värillinen ansioluettelo PDF-muodossa',
+        downloadGrayscalePdf:
+          'Lataa ansioluettelo PDF-muodossa harmaasävyisenä',
+        toggleLocale: `Vaihda kieli kielelle ${EN_LOCALE}`,
+        toggleExpandedView: `${
+          expandedView ? 'Poista käytöstä' : 'Ota käyttöön'
+        } laajennettu näkymä`,
+        toggleDarkMode: `${
+          darkMode ? 'Poista käytöstä' : 'Ota käyttöön'
+        } tumma teema`,
+        bio: 'Ansioluettelo',
+      },
+    }),
+    [expandedView, darkMode]
+  );
 
   const togglePdfButtons = () => {
     setShowPdfButtons((prevState) => !prevState);
   };
 
-  const handleClickOutside = useCallback((event: MouseEvent) => {
-    const target = event.target as HTMLElement;
-    if (!target.closest('.menu-pdfs-resume') && showPdfButtons) {
-      setShowPdfButtons(false);
-    }
-  }, [showPdfButtons]);
+  const handleClickOutside = useCallback(
+    (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('.menu-pdfs-resume') && showPdfButtons) {
+        setShowPdfButtons(false);
+      }
+    },
+    [showPdfButtons]
+  );
 
   // Hide PDF buttons when clicking outside
   useEffect(() => {
@@ -201,7 +207,7 @@ function Menu({ name }: MenuProps) {
           }
         }}
       >
-        <div 
+        <div
           className={`pdf-buttons-container ${
             showPdfButtons || !isMobile ? 'visible' : ''
           }`}
