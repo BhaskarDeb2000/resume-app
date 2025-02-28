@@ -18,10 +18,11 @@
     height: 297mm;
 
     /* Make graphics B&W for printing */
-    --resume-bg-color-alt: #f7f9fb;
-    --text-color-light: #e6e6e6;
-    --color-red: #9c9c9c;
-    --color-blue: #595959;
+    /* Modern, Stylish Color Palette */
+    --resume-bg-color-alt: #1e3a8a; /* Deep Royal Blue */
+    --text-color-light: #16a34a; /* Vibrant Emerald Green */
+    --color-red: #dc2626; /* Bold Crimson Red */
+    --color-blue: #3b82f6; /* Bright Azure Blue */
   }
 
   .main-page {

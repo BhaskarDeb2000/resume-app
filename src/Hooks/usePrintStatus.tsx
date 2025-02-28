@@ -5,14 +5,16 @@ type PrintCallbacks = {
   onAfterPrint?: () => void;
 };
 
-const usePrintStatus = ({ onBeforePrint, onAfterPrint }: PrintCallbacks = {}) => {
+const usePrintStatus = ({
+  onBeforePrint,
+  onAfterPrint,
+}: PrintCallbacks = {}) => {
   const [isPrinting, setIsPrinting] = useState<boolean>(false);
   const listenerAddedRef = useRef<boolean>(false);
 
   useEffect(() => {
     // Only add event listeners once when the component mounts
     if (!listenerAddedRef.current) {
-
       // const printMediaQueryList = window.matchMedia('print');
 
       // const updatePrintStatus = () => {
@@ -20,7 +22,7 @@ const usePrintStatus = ({ onBeforePrint, onAfterPrint }: PrintCallbacks = {}) =>
       // };
 
       const handleBeforePrint = () => {
-        // console.log('Before print');
+        console.log('Before print');
         setIsPrinting(true);
         onBeforePrint?.();
       };
@@ -53,7 +55,6 @@ const usePrintStatus = ({ onBeforePrint, onAfterPrint }: PrintCallbacks = {}) =>
 
     // This ensures the effect runs only once when the component mounts.
     // onBeforePrint or onAfterPrint changes will not cause the listeners to be re-added.
-
   }, [onAfterPrint, onBeforePrint]);
 
   return isPrinting;

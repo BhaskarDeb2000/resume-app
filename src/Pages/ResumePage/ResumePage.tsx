@@ -185,7 +185,7 @@ function ResumePage() {
           path="/"
           element={
             <>
-              <Menu name={profile.name} />
+              <Menu />
               <Resume resumeData={state} locale={appLocale} dark={darkMode} />
             </>
           }
@@ -194,7 +194,7 @@ function ResumePage() {
           path="en"
           element={
             <>
-              <Menu name={profile.name} />
+              <Menu />
               <Resume resumeData={state} locale={appLocale} dark={darkMode} />
             </>
           }
