@@ -1,64 +1,63 @@
-# My Personal Resume
+# Personal Resume App
 
-Build with React + TypeScript + Vite and fueled by lots of ☕ (or even 🍺 sometimes).
+Built with **React + TypeScript + Vite**, powered by lots of ☕ (or sometimes 🍺).  
 
-Data are loaded from `.json` files, with one for each language to support multilingual resume content.
+This app features a **responsive one-page layout** designed with A4 dimensions for seamless compatibility with both desktop screens and PDF exports.  
 
-The app features a responsive design, providing a one-page layout with dimensions similar to an A4 paper, ensuring compatibility on both desktop and PDF files.
+## Key Features 🎛️  
 
-## Key Features 🎛️
+- [x] **Light and Dark Mode** 🌞/🌕: Toggle between light and dark themes for better readability.  
+- [x] **Multilingual Support** 🌍: Available in **Finnish** and **English**.  
+- [x] **Quick Print** 🖨️: Instantly print the resume with a single click.  
+- [x] **Mobile Tweaks** 📱: Components dynamically adjust and re-order for better mobile experience.  
+- [x] **Local Google Fonts** ⚡: Fonts are loaded locally to improve performance and prevent unstyled text flashes (FOUT).  
+- [x] **Expanded View** 🔎: A toggleable expanded view (EV) for better visibility of details.  
+- [x] **Routing** 🔖:  
+  - **Dedicated locale routes** (`/en` for English) allow easy sharing and bookmarking of language-specific versions.  
+  - **404 Error Handling**: Custom error pages for undefined routes.
 
-- [x] **Light and Dark Mode** 🌞/🌕: Seamlessly switch between light and dark themes for optimal readability.
-- [x] **Multilingual Support**: Available in Finnish and English languages.
-- [x] **PDF Downloads** 📄: Easily download resume in pdf format in two variations (colored and grayscale) for each supported language.
-- [x] **Quick Print** 🖨️: Conveniently print the resume with a single click.
-- [x] **Mobile Tweaks** 🎛️ : Conditionally change render order of components on mobile devices.
-- [x] **Local Google Fonts** ℹ️ : We load Google Fonts locally to improve page loading times and avoid flashes of unstyled text (FOUT).
-- [x] **Expanded View** ℹ️ : Menu button that enable or disable the Expanded View (EV). During EV, we reveal more information regarding projects in a particular work and also for personal projects. We also reveal Hobbies section. Furthermore, we make the profile as sticky when EV is enabled and we are on desktop. Finally, EV is not available when printing.
-- [x] **Routing** 🔖 Added second locale (en-US) to it's own route `/en` and introduced 404 error documents for non specified routes. With separate routes by locale we can now share and/or bookmark the resume to specific locale. As a side note here, we are using react-router's HashRouter because the default Router is not working on github pages where we host the app.
-- [x] **SEO & Meta Tags** 🔍: Implemented **social media meta tags** for Facebook and Twitter, improving shareability and visibility. Additionally, included **canonical** and **hreflang** meta tags to enhance search engine optimization and ensure proper language recognition.
+## Getting Started 🏁  
 
-## Getting Started 🏁
+### Built With 🛠️  
 
-### Build with 🧰
+#### Frameworks & Libraries  
 
-#### Frameworks and Libraries
+- [React](https://github.com/facebook/react#readme) – JavaScript library for building user interfaces.  
+- [React Icons](https://react-icons.github.io/react-icons/) – Library for adding popular icons to React projects.  
+- [country-flag-icons](https://gitlab.com/catamphetamine/country-flag-icons#readme) – Set of SVG country flag icons.  
+- [Fontsource](https://github.com/fontsource/fontsource#readme) – Self-hostable open-source fonts packaged as NPM modules.  
+- [React Router DOM](https://github.com/remix-run/react-router#readme) – Routing library for React applications.  
 
-- [React](https://github.com/facebook/react#readme): A JavaScript library for building user interfaces.
-- [React Icons](https://react-icons.github.io/react-icons/): A library for including popular icons in React projects.
-- [country-flag-icons](https://gitlab.com/catamphetamine/country-flag-icons#readme): A set of SVG country flag icons for use in web projects.
-- [Fontsource](https://github.com/fontsource/fontsource#readme): An updating monorepo full of self-hostable Open Source fonts bundled into individual NPM packages!
-- [React Router DOM](https://github.com/remix-run/react-router#readme): React Router is a lightweight, fully-featured routing library for the React JavaScript library.
+#### Build Tools & Utilities  
 
-#### Build Tools and Utilities
+- [Vite](https://github.com/vitejs/vite#readme) – Fast build tool for modern web development.  
+- [TypeScript](https://github.com/microsoft/TypeScript/#readme) – Adds static typing to JavaScript.  
+- [ESLint](https://github.com/eslint/eslint#readme) – Linter for identifying and fixing code issues.  
+- [PostCSS](https://github.com/postcss/postcss#readme) – CSS transformation tool.  
+- [Autoprefixer](https://github.com/postcss/autoprefixer#readme) – Adds vendor prefixes to CSS automatically.  
+- [Prettier](https://github.com/prettier/prettier#readme) – Code formatter for consistent styling.  
+- [gh-pages](https://github.com/tschaub/gh-pages#readme) – Deploys static websites to GitHub Pages with ease.  
+- [vite-plugin-svgr](https://github.com/gregberge/svgr) – Transforms SVGs into React components.  
 
-- [Vite](https://github.com/vitejs/vite#readme): A fast build tool for modern web development.
-- [TypeScript](https://github.com/microsoft/TypeScript/#readme): A superset of JavaScript that adds static types to the language.
-- [ESLint](https://github.com/eslint/eslint#readme): A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
-- [PostCSS](https://github.com/postcss/postcss#readme): A tool for transforming CSS with JavaScript plugins.
-- [Autoprefixer](https://github.com/postcss/autoprefixer#readme): A PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
-- [Prettier](https://github.com/prettier/prettier#readme): A tool for automatically formatting code to ensure consistent style and formatting.
-- [gh-pages](https://github.com/tschaub/gh-pages#readme): A convenient tool for deploying your project to GitHub Pages with minimal configuration. With `gh-pages`, you can seamlessly publish your static websites, React applications, or any other web projects directly from your GitHub repository to a dedicated GitHub Pages branch, making it accessible to the world with just a few simple commands.
-- [vite-plugin-svgr]: Vite plugin to transform SVGs into React components. Uses [svgr](https://github.com/gregberge/svgr) under the hood.
+## Installation & Setup 🚧  
 
+### 1️⃣ Clone the Repository  
 
-### Installation 🚧
+```shell
+git clone https://github.com/BhaskarDeb2000/resume-app
+cd resume-app
+```
 
-1. Clone this repo.
-2. Navigate to the project directory and install dependencies:
+### 2️⃣ Install Dependencies  
 
-  ```shell
-  cd ./resume
-  npm install
-  ```
+```shell
+npm install
+```
 
-### Running the app 🚀
-
-To run the app locally, use the following command:
+### 3️⃣ Run the Application 🚀  
 
 ```shell
 npm run dev
-
 ```
 
-The app will be accessible at: `http://localhost:5174/` by default.
+The app will be available at **`http://localhost:5174/`** by default
