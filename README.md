@@ -18,15 +18,7 @@ The app features a responsive design, providing a one-page layout with dimension
 - [x] **Routing** 🔖 Added second locale (en-US) to it's own route `/en` and introduced 404 error documents for non specified routes. With separate routes by locale we can now share and/or bookmark the resume to specific locale. As a side note here, we are using react-router's HashRouter because the default Router is not working on github pages where we host the app.
 - [x] **SEO & Meta Tags** 🔍: Implemented **social media meta tags** for Facebook and Twitter, improving shareability and visibility. Additionally, included **canonical** and **hreflang** meta tags to enhance search engine optimization and ensure proper language recognition.
 
-
-## Todo 📝
-
-- [ ] Make it offline ready (PWA).
-- [ ] Add test coverage by implementing Vitest for comprehensive testing of the application.
-
-
 ## Getting Started 🏁
-
 
 ### Build with 🧰
 
@@ -37,13 +29,6 @@ The app features a responsive design, providing a one-page layout with dimension
 - [country-flag-icons](https://gitlab.com/catamphetamine/country-flag-icons#readme): A set of SVG country flag icons for use in web projects.
 - [Fontsource](https://github.com/fontsource/fontsource#readme): An updating monorepo full of self-hostable Open Source fonts bundled into individual NPM packages!
 - [React Router DOM](https://github.com/remix-run/react-router#readme): React Router is a lightweight, fully-featured routing library for the React JavaScript library.
-
-
-#### Automation
-
-- [Playwright](https://playwright.dev/docs/library): A Node library for automating browsers.
-- [@playwright/browser-chromium](https://playwright.dev/docs/library#key-differences): Chromium-specific Playwright library for browser automation.
-
 
 #### Build Tools and Utilities
 
@@ -61,14 +46,11 @@ The app features a responsive design, providing a one-page layout with dimension
 
 1. Clone this repo.
 2. Navigate to the project directory and install dependencies:
+
   ```shell
   cd ./resume
   npm install
   ```
-3. Modify the `.json` files located in `./src/Data` with your personal information.
-
-> Some sections/entries in the data files are omitted from rendering. **This is by design as I wanted to fit the basic information on one page**. However, we can display all `non-hidden` entries upon request, via the Expanded-View, for online view*. The PDFs remain in the one-page version.
-
 
 ### Running the app 🚀
 
@@ -80,4 +62,3 @@ npm run dev
 ```
 
 The app will be accessible at: `http://localhost:5174/` by default.
-

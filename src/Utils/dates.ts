@@ -31,7 +31,7 @@ type LanguageForms = {
  * @description Object holding singular and plural forms of the word "year" for different locales.
  */
 const yearsWords: Record<string, LanguageForms> = {
-  [EL_LOCALE]: { singular: 'χρόνος', plural: 'χρόνια' },
+  [EL_LOCALE]: { singular: 'vuosi', plural: 'vuodet' },
   [EN_LOCALE]: { singular: 'year', plural: 'years' },
 };
 
