@@ -1,7 +1,11 @@
 import React, { useMemo } from 'react';
 import useExpandedView from '@/Hooks/useExpandedView';
 import { printUrl } from '@/Utils/strings';
-import { HIDE_UNLESS_EXPANDED, TECHNOLOGY_DISPLAY_LIMIT, EL_LOCALE} from '@/constants';
+import {
+  HIDE_UNLESS_EXPANDED,
+  TECHNOLOGY_DISPLAY_LIMIT,
+  FI_LOCALE,
+} from '@/constants';
 import '@/Components/Projects/Projects.css';
 import useLocale from '@/Hooks/useLocale';
 
@@ -32,7 +36,7 @@ function Projects({ projectsData }: ProjectsProps) {
     if (projectsData.isHidden) {
       return [];
     }
-    return projectsData.entries.filter(project => !project.isHidden);
+    return projectsData.entries.filter((project) => !project.isHidden);
   }, [projectsData.isHidden, projectsData.entries]);
 
   // Return null if no filtered projects
@@ -40,7 +44,9 @@ function Projects({ projectsData }: ProjectsProps) {
 
   return (
     <section className="projects__section" id="projects">
-      <h2 className="projects__heading section-title">{projectsData.sectionTitle}</h2>
+      <h2 className="projects__heading section-title">
+        {projectsData.sectionTitle}
+      </h2>
 
       <div className="projects__grid">
         {filteredProjects.map((project, index) => {
@@ -57,29 +63,47 @@ function Projects({ projectsData }: ProjectsProps) {
                 <h3 className="project__name">{project.name}</h3>
                 <ul className="project__technologies">
                   {displayedTechnologies.map((tech, techIndex) => (
-                    <li key={`tech-${techIndex}`} className="project__tech-item">{tech}</li>
-                  ))}
-                  {!expandedView && project.technologies.length > TECHNOLOGY_DISPLAY_LIMIT && (
                     <li
-                      className="project__tech-item project__tech-item-more"
-                      title={project.technologies.slice(TECHNOLOGY_DISPLAY_LIMIT).join(', ')}
+                      key={`tech-${techIndex}`}
+                      className="project__tech-item"
                     >
-                      { appLocale == EL_LOCALE ? 'κ.ά.' : '+more'}
+                      {tech}
                     </li>
-                  )}
+                  ))}
+                  {!expandedView &&
+                    project.technologies.length > TECHNOLOGY_DISPLAY_LIMIT && (
+                      <li
+                        className="project__tech-item project__tech-item-more"
+                        title={project.technologies
+                          .slice(TECHNOLOGY_DISPLAY_LIMIT)
+                          .join(', ')}
+                      >
+                        {appLocale == FI_LOCALE ? 'κ.ά.' : '+more'}
+                      </li>
+                    )}
                 </ul>
 
                 {project.showDesc && (
                   <ul className={`project__desc ${HIDE_UNLESS_EXPANDED}`}>
                     {project.desc.map((desc, descIndex) => (
-                      <li key={`desc-${descIndex}`} className="project__desc-entry">{desc}</li>
+                      <li
+                        key={`desc-${descIndex}`}
+                        className="project__desc-entry"
+                      >
+                        {desc}
+                      </li>
                     ))}
                   </ul>
                 )}
 
                 {project.link && (
                   <div className="project__link">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" title={project.name}>
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={project.name}
+                    >
                       {printUrl(project.link)}
                     </a>
                   </div>

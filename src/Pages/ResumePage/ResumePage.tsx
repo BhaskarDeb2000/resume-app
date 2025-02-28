@@ -8,7 +8,7 @@ import Error404Page from '@/Pages/Error404Page/Error404Page';
 import { displayTypeTypes } from '@/Components/Certificates/Certificates';
 
 import {
-  EL_LOCALE,
+  FI_LOCALE,
   EN_LOCALE,
   APP_IN_DEV_MODE,
   APP_BASE_URL,
@@ -87,7 +87,7 @@ function ResumePage() {
     // Determine the initial locale based on the URL
     const localeFromUrl = location.pathname.startsWith('/en')
       ? EN_LOCALE
-      : EL_LOCALE;
+      : FI_LOCALE;
     setLocale(localeFromUrl);
 
     // Normalize the pathname by ensuring it ends with a trailing slash

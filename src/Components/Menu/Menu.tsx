@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { EN_LOCALE, EL_LOCALE } from '@/constants';
+import { EN_LOCALE, FI_LOCALE } from '@/constants';
 import useLocale from '@/Hooks/useLocale';
 import usePrintStatus from '@/Hooks/usePrintStatus';
 import useMediaQuery from '@/Hooks/useMediaQuery';
@@ -47,12 +47,12 @@ function Menu() {
           'Download resume in PDF format (colored or grayscale)',
         downloadPdf: 'Download colored resume in PDF format',
         downloadGrayscalePdf: 'Download grayscaled resume in PDF format',
-        toggleLocale: `Toggle locale to ${EL_LOCALE}`,
+        toggleLocale: `Toggle locale to ${FI_LOCALE}`,
         toggleExpandedView: `Toggle expanded view ${expandedView ? 'Off' : 'On'}`,
         toggleDarkMode: `Toggle dark mode ${darkMode ? 'Off' : 'On'}`,
         bio: 'CV',
       },
-      [EL_LOCALE]: {
+      [FI_LOCALE]: {
         print: 'Tulosta ansioluettelo',
         downloadPdfsWrapper:
           'Lataa ansioluettelo PDF-muodossa (värillisenä tai harmaasävyisenä)',
@@ -117,7 +117,7 @@ function Menu() {
   };
 
   const toggleLocale = useCallback(() => {
-    const newLocale = appLocale === EL_LOCALE ? EN_LOCALE : EL_LOCALE;
+    const newLocale = appLocale === FI_LOCALE ? EN_LOCALE : FI_LOCALE;
     if (newLocale !== appLocale) {
       setLocale(newLocale);
       navigate(newLocale === EN_LOCALE ? `/en` : `/`);

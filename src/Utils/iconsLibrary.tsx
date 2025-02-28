@@ -1,4 +1,4 @@
-import { EL_LOCALE, EN_LOCALE } from '@/constants';
+import { FI_LOCALE, EN_LOCALE } from '@/constants';
 
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
@@ -53,10 +53,10 @@ const PROJECT_ICONS = {
 };
 
 const MENU_ICONS = {
-  el_gr: (
+  fi_fi: (
     <FI
-      title="Vaihda kieli kreikaksi"
-      className="language-flag language-fi-fi "
+      title="Vaihda kieli suomeksi"
+      className="language-flag language-fi-fi"
     />
   ),
   en_us: (
@@ -87,12 +87,12 @@ const RESUME_NOT_FOUND_ICONS = {
  * @returns The icon key for the opposite locale (e.g., 'en_us' for 'el-GR').
  */
 const getOppositeLocaleIconKey = (locale: string): string => {
-  const opositeLocale = locale === EL_LOCALE ? EN_LOCALE : EL_LOCALE;
+  const opositeLocale = locale === FI_LOCALE ? EN_LOCALE : FI_LOCALE;
   const iconKey = opositeLocale.toLowerCase().replace('-', '_');
   if (MENU_ICONS[iconKey as keyof typeof MENU_ICONS]) {
     return iconKey;
   }
-  return EL_LOCALE.toLowerCase().replace('-', '_'); // Fallback to Finnish
+  return FI_LOCALE.toLowerCase().replace('-', '_'); // Fallback to Finnish
 };
 
 export {

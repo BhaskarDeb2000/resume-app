@@ -1,6 +1,6 @@
 import {
   EN_LOCALE,
-  EL_LOCALE,
+  FI_LOCALE,
   DEFAULT_LOCALE,
   EXP_YEARS_PLACEHOLDER,
   DATE_RANGE_SEPARATOR,
@@ -31,7 +31,7 @@ type LanguageForms = {
  * @description Object holding singular and plural forms of the word "year" for different locales.
  */
 const yearsWords: Record<string, LanguageForms> = {
-  [EL_LOCALE]: { singular: 'vuosi', plural: 'vuodet' },
+  [FI_LOCALE]: { singular: 'vuosi', plural: 'vuotta' },
   [EN_LOCALE]: { singular: 'year', plural: 'years' },
 };
 
@@ -224,7 +224,7 @@ export const getDateFormatIntl = (
 };
 
 const presentTranslationByLocale: Record<string, string> = {
-  [EL_LOCALE]: 'Läsnä',
+  [FI_LOCALE]: 'Läsnä',
   [EN_LOCALE]: 'Present',
 };
 

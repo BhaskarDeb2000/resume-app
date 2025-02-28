@@ -33,7 +33,7 @@ export const APP_PROD_HOST = 'https://bhaskar-deb.vercel.app/';
  * Finnish locale constant used for representing the Finnish language and region.
  * @constant
  */
-export const EL_LOCALE = 'el-GR';
+export const FI_LOCALE = 'fi-FI';
 
 /**
  * English locale constant used for representing the English language and US region.
@@ -47,7 +47,7 @@ export const EN_LOCALE = 'en-US';
  * It is used in ThemeContext, date functions, and other components where locale is required.
  * @constant
  */
-export const DEFAULT_LOCALE = EL_LOCALE;
+export const DEFAULT_LOCALE = FI_LOCALE;
 
 /**
  * The fallback version number of the app.
