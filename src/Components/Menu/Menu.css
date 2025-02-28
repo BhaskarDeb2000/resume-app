@@ -142,3 +142,8 @@
     display: none;
   }
 }
+@media screen and (max-width: 767.99px) {
+  #menu .menu-item.menu-print-resume {
+    display: none;
+  }
+}
