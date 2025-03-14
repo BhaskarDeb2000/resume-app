@@ -245,6 +245,19 @@
         ],
         "link": "https://movie-hub-wheat.vercel.app/",
         "isHidden": false
+      },
+      {
+        "name": "Country App",
+        "technologies": ["React", "Vite", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Maatutkimus: Selaa kaikkia maita ja tarkastele keskeisiä tietoja",
+          "Haku ja suodatus: Etsi maita nimellä ja suodata alueen mukaan pudotusvalikosta",
+          "Pimeä tila pysyvyydellä: Teema-asetukset säilyvät istuntojen välillä",
+          "Virheenkäsittely: Käsittelee API-virheitä ja tukee uudelleenyritystoimintoa"
+        ],
+        "link": "https://country-app-kohl.vercel.app/",
+        "isHidden": false
       }
     ]
   },

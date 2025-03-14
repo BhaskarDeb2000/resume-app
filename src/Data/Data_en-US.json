@@ -245,6 +245,19 @@
         ],
         "link": "https://movie-hub-wheat.vercel.app/",
         "isHidden": false
+      },
+      {
+        "name": "Country App",
+        "technologies": ["React", "Vite", "TypeScript", "CSS"],
+        "showDesc": true,
+        "desc": [
+          "Country Exploration: Browse all countries with essential details",
+          "Search & Filtering: Search by name and filter countries by region with a dropdown",
+          "Dark Mode with Persistence: Theme settings persist across sessions",
+          "Error Handling: API failure handling with retry functionality"
+        ],
+        "link": "https://country-app-kohl.vercel.app/",
+        "isHidden": false
       }
     ]
   },
