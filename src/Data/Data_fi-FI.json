@@ -55,12 +55,12 @@
     "entries": [
       {
         "isHidden": false,
-        "mainRole": "Keittiöapulainen",
-        "company": "Barona",
+        "mainRole": "Ohjelmistokehittäjä",
+        "company": "Hobiver",
         "duration": {
-          "from": "2024-08",
-          "to": "present",
-          "icon": "calendar",
+          "from": "2025-03",
+          "to": "nykyhetki",
+          "icon": "kalenteri",
           "showIcon": false
         },
         "address": {
@@ -70,13 +70,56 @@
           "countryCode": "FI",
           "country": "Suomi",
           "text": "Helsinki, Suomi",
-          "icon": "location",
+          "icon": "sijainti",
           "showIcon": true
         },
         "work": [
           {
-            "role": "Keittiöapulainen",
-            "showRole": false,
+            "role": "Ohjelmistokehittäjä",
+            "showRole": true,
+            "description": [
+              "Web-sovellusten kehittäminen ja ylläpito käyttämällä Reactia, TypeScriptiä ja Node.js:ää.",
+              "Osallistuminen koodikatselmointeihin ja koodin laadun varmistaminen.",
+              "Vanhan koodin siirtäminen nykyaikaisiin kehyksiin ja kirjastoihin.",
+              "Sovelluksen suorituskyvyn ja skaalautuvuuden optimointi.",
+              "RESTful API:en toteuttaminen ja kolmansien osapuolten palveluiden integrointi.",
+              "Yksikkötestauksen ja virheenjäljityksen suorittaminen ohjelmiston luotettavuuden varmistamiseksi.",
+              "Ajantasalla pysyminen alan uusimmista trendeistä ja teknologioista."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Keittiöapulainen",
+        "company": "Barona",
+        "duration": {
+          "from": "2024-08",
+          "to": "nykyhetki",
+          "icon": "kalenteri",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Suomi",
+          "postalCode": "00440",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Suomi",
+          "text": "Helsinki, Suomi",
+          "icon": "sijainti",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "role": "Osa-aikainen keittiöapulainen",
+            "showRole": true,
+            "description": [
+              "Avustaminen ruoan valmistuksessa ja ruoanlaitossa.",
+              "Keittiön puhtauden ja järjestyksen ylläpitäminen.",
+              "Elintarviketurvallisuus- ja hygieniastandardien noudattaminen.",
+              "Yhteistyö keittiöhenkilökunnan kanssa sujuvan toiminnan varmistamiseksi."
+            ],
             "showDescription": true
           }
         ]

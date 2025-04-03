@@ -55,6 +55,43 @@
     "entries": [
       {
         "isHidden": false,
+        "mainRole": "Software Developer",
+        "company": "Hobiver",
+        "duration": {
+          "from": "2025-03",
+          "to": "present",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Finland",
+          "postalCode": "00440",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Finland",
+          "text": "Helsinki, Finland",
+          "icon": "location",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "role": "Software Developer",
+            "showRole": true,
+            "description": [
+              "Developing and maintaining web applications using React, TypeScript, and Node.js.",
+              "Participating in code reviews and ensuring code quality.",
+              "Migrating legacy code to modern frameworks and libraries.",
+              "Optimizing application performance and scalability.",
+              "Implementing RESTful APIs and integrating third-party services.",
+              "Conducting unit testing and debugging to ensure software reliability.",
+              "Staying updated with the latest industry trends and technologies."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
         "mainRole": "Kitchen Assistant",
         "company": "Barona",
         "duration": {
@@ -75,9 +112,15 @@
         },
         "work": [
           {
-            "role": "Kitchen Assistant",
-            "showRole": false,
-            "showDescription": false
+            "role": "Partime Kitchen Assistant",
+            "showRole": true,
+            "description": [
+              "Assisting in food preparation and cooking.",
+              "Maintaining cleanliness and organization in the kitchen.",
+              "Following food safety and hygiene standards.",
+              "Collaborating with kitchen staff to ensure smooth operations."
+            ],
+            "showDescription": true
           }
         ]
       },
