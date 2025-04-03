@@ -82,9 +82,7 @@
               "Participating in code reviews and ensuring code quality.",
               "Migrating legacy code to modern frameworks and libraries.",
               "Optimizing application performance and scalability.",
-              "Implementing RESTful APIs and integrating third-party services.",
-              "Conducting unit testing and debugging to ensure software reliability.",
-              "Staying updated with the latest industry trends and technologies."
+              "Implementing RESTful APIs and integrating third-party services."
             ],
             "showDescription": true
           }
@@ -113,14 +111,11 @@
         "work": [
           {
             "role": "Partime Kitchen Assistant",
-            "showRole": true,
+            "showRole": false,
             "description": [
-              "Assisting in food preparation and cooking.",
-              "Maintaining cleanliness and organization in the kitchen.",
-              "Following food safety and hygiene standards.",
-              "Collaborating with kitchen staff to ensure smooth operations."
+              "Assisting in food preparation and cooking."
             ],
-            "showDescription": true
+            "showDescription": false
           }
         ]
       },
@@ -228,18 +223,6 @@
         "isHidden": false
       },
       {
-        "name": "Full-stack Pokemon App",
-        "technologies": ["React", "JavaScript", "Axios", "Material-UI"],
-        "showDesc": true,
-        "desc": [
-          "Node.js Backend: API integration for fetching Pokémon data",
-          "React: For building the user interface",
-          "Toggle between light and dark themes for a better viewing experience."
-        ],
-        "link": "https://pokemonfullstack.vercel.app/",
-        "isHidden": false
-      },
-      {
         "name": "Currency Exchange Rates App",
         "technologies": ["Vite", "TypeScript", "CSS"],
         "showDesc": true,
@@ -249,18 +232,6 @@
           "Supports multiple currencies, including USD, EUR, CAD, INR, and NPR"
         ],
         "link": "https://currency-exchange-app-viio.vercel.app/",
-        "isHidden": false
-      },
-      {
-        "name": "HR app",
-        "technologies": ["Vite", "React", "TypeScript", "Material-UI"],
-        "showDesc": true,
-        "desc": [
-          "Displays each employee’s name, role, location and start date.",
-          "Renders multiple EmployeeCard components by passing employee details as props.",
-          "Employees can be promoted or demoted through buttons, following a predefined hierarchy: Intern → Junior Developer → Developer → Senior Developer → Lead Developer."
-        ],
-        "link": "https://hr-app-three.vercel.app/",
         "isHidden": false
       },
       {

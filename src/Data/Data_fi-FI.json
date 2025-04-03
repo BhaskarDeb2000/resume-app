@@ -82,9 +82,7 @@
               "Osallistuminen koodikatselmointeihin ja koodin laadun varmistaminen.",
               "Vanhan koodin siirtäminen nykyaikaisiin kehyksiin ja kirjastoihin.",
               "Sovelluksen suorituskyvyn ja skaalautuvuuden optimointi.",
-              "RESTful API:en toteuttaminen ja kolmansien osapuolten palveluiden integrointi.",
-              "Yksikkötestauksen ja virheenjäljityksen suorittaminen ohjelmiston luotettavuuden varmistamiseksi.",
-              "Ajantasalla pysyminen alan uusimmista trendeistä ja teknologioista."
+              "RESTful API:en toteuttaminen ja kolmansien osapuolten palveluiden integrointi."
             ],
             "showDescription": true
           }
@@ -113,14 +111,11 @@
         "work": [
           {
             "role": "Osa-aikainen keittiöapulainen",
-            "showRole": true,
+            "showRole": false,
             "description": [
-              "Avustaminen ruoan valmistuksessa ja ruoanlaitossa.",
-              "Keittiön puhtauden ja järjestyksen ylläpitäminen.",
-              "Elintarviketurvallisuus- ja hygieniastandardien noudattaminen.",
-              "Yhteistyö keittiöhenkilökunnan kanssa sujuvan toiminnan varmistamiseksi."
+              "Avustaminen ruoan valmistuksessa ja ruoanlaitossa."
             ],
-            "showDescription": true
+            "showDescription": false
           }
         ]
       },
@@ -228,18 +223,6 @@
         "isHidden": false
       },
       {
-        "name": "Full-stack Pokémon-sovellus",
-        "technologies": ["React", "JavaScript", "Axios", "Material-UI"],
-        "showDesc": true,
-        "desc": [
-          "Node.js-backend: API-integraatio Pokémon-tietojen hakemiseksi.",
-          "React: Käyttöliittymän rakentamiseen.",
-          "Vaihto tumman ja vaalean teeman välillä paremman katselukokemuksen saavuttamiseksi."
-        ],
-        "link": "https://pokemonfullstack.vercel.app/",
-        "isHidden": false
-      },
-      {
         "name": "Valuutanvaihtokurssisovellus",
         "technologies": ["Vite", "TypeScript", "CSS"],
         "showDesc": true,
@@ -249,31 +232,6 @@
           "Tukee useita valuuttoja, kuten USD, EUR, CAD, INR ja NPR."
         ],
         "link": "https://currency-exchange-app-viio.vercel.app/",
-        "isHidden": false
-      },
-      {
-        "name": "HR-sovellus",
-        "technologies": ["Vite", "React", "TypeScript", "Material-UI"],
-        "showDesc": true,
-        "desc": [
-          "Näyttää jokaisen työntekijän nimen, roolin, sijainnin ja aloituspäivämäärän.",
-          "Renderöi useita EmployeeCard-komponentteja välittämällä työntekijöiden tiedot propseina.",
-          "Työntekijöitä voidaan ylentää tai alentaa painikkeiden avulla ennalta määritellyn hierarkian mukaisesti: Harjoittelija → Junior-kehittäjä → Kehittäjä → Senior-kehittäjä → Pääkehittäjä."
-        ],
-        "link": "https://hr-app-three.vercel.app/",
-        "isHidden": false
-      },
-      {
-        "name": "Nasan päivän kuva",
-        "technologies": ["Node", "React", "Axios", "Material-UI"],
-        "showDesc": true,
-        "desc": [
-          "Backend: Express-palvelin, joka toimii välityspalvelimena NASA-API:n hakemisessa.",
-          "Frontend: React-pohjainen käyttöliittymä API:n käyttämiseksi ja datan kauniisti näyttämiseksi.",
-          "Päivämäärän valinta: Valitse mikä tahansa päivämäärä tutkiaksesi Nasan avaruuskuvaa kyseiseltä päivältä.",
-          "Responsiivinen suunnittelu: Optimoitu tietokoneille, tablet-laitteille ja puhelimille."
-        ],
-        "link": "https://full-stack-nasa-best-pic.vercel.app/",
         "isHidden": false
       },
       {
