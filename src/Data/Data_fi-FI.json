@@ -88,68 +88,105 @@
           }
         ]
       },
-      {
-        "isHidden": false,
-        "mainRole": "Keittiöapulainen",
-        "company": "Barona",
-        "duration": {
-          "from": "2024-08",
-          "to": "nykyhetki",
-          "icon": "kalenteri",
-          "showIcon": false
-        },
-        "address": {
-          "street": "Helsinki, Suomi",
-          "postalCode": "00440",
-          "city": "Helsinki",
-          "countryCode": "FI",
-          "country": "Suomi",
-          "text": "Helsinki, Suomi",
-          "icon": "sijainti",
-          "showIcon": true
-        },
-        "work": [
-          {
-            "role": "Osa-aikainen keittiöapulainen",
-            "showRole": false,
-            "description": [
-              "Avustaminen ruoan valmistuksessa ja ruoanlaitossa."
-            ],
-            "showDescription": false
-          }
-        ]
-      },
-      {
-        "isHidden": false,
-        "mainRole": "Graafinen Suunnittelija, Ohjaaja ja Hallintojohtaja",
-        "company": "Future IT Valley",
-        "duration": {
-          "from": "2021-04",
-          "to": "2023-11",
-          "icon": "calendar",
-          "showIcon": false
-        },
-        "address": {
-          "street": "Sylhet, Bangladesh",
-          "postalCode": "3100",
-          "city": "Sylhet",
-          "countryCode": "BD",
-          "country": "Bangladesh",
-          "text": "Sylhet, Bangladesh",
-          "icon": "location",
-          "showIcon": true
-        },
-        "work": [
-          {
-            "role": "Graafinen Suunnittelija",
-            "showRole": false,
-            "description": [
-              "Graafinen suunnittelu, opetuksen tarjoaminen ja hallinnon johtaminen."
-            ],
-            "showDescription": false
-          }
-        ]
-      }
+						{
+						"isHidden": false,
+						"mainRole": "Keittiöapulainen",
+						"company": "Barona",
+						"duration": {
+							"from": "2024-08",
+							"to": "nykyhetki",
+							"icon": "kalenteri",
+							"showIcon": false
+						},
+						"address": {
+							"street": "Helsinki, Suomi",
+							"postalCode": "00440",
+							"city": "Helsinki",
+							"countryCode": "FI",
+							"country": "Suomi",
+							"text": "Helsinki, Suomi",
+							"icon": "sijainti",
+							"showIcon": true
+						},
+						"work": [
+							{
+						"role": "Osa-aikainen keittiöapulainen",
+						"showRole": true,
+						"description": [
+							"Avustaminen ruoan valmistuksessa ja ruoanlaitossa."
+						],
+						"showDescription": true
+							}
+						]
+					},
+					{
+						"isHidden": false,
+						"mainRole": "Graafinen suunnittelija, ohjaaja ja hallinnon päällikkö",
+						"company": "Future IT Valley",
+						"duration": {
+							"from": "2021-04",
+							"to": "2023-11",
+							"icon": "kalenteri",
+							"showIcon": false
+						},
+						"address": {
+							"street": "Sylhet, Bangladesh",
+							"postalCode": "3100",
+							"city": "Sylhet",
+							"countryCode": "BD",
+							"country": "Bangladesh",
+							"text": "Sylhet, Bangladesh",
+							"icon": "sijainti",
+							"showIcon": true
+						},
+						"work": [
+							{
+						"role": "Graafinen suunnittelija",
+						"showRole": true,
+						"description": [
+							"Suunnitteli grafiikkaa erilaisiin projekteihin ja kampanjoihin.",
+							"Tarjosi ohjausta graafisen suunnittelun työkaluihin ja tekniikoihin.",
+							"Johti hallinnollisia tehtäviä varmistaakseen sujuvan toiminnan."
+						],
+						"showDescription": true
+							}
+						]
+					},
+					{
+						"isHidden": false,
+						"mainRole": "Helga-tuutori",
+						"company": "Haaga-Helian ammattikorkeakoulu",
+						"duration": {
+							"from": "2023-01",
+							"to": "2024-01",
+							"icon": "kalenteri",
+							"showIcon": false
+						},
+						"address": {
+							"street": "Pasila, Helsinki",
+							"postalCode": "3100",
+							"city": "Helsinki",
+							"countryCode": "FI",
+							"country": "Suomi",
+							"text": "Helsinki, Suomi",
+							"icon": "sijainti",
+							"showIcon": true
+						},
+						"work": [
+							{
+						"role": "Opiskelijatuutori",
+						"showRole": true,
+						"description": [
+							"Tarjosi kattavaa akateemista tukea monimuotoisille kansainvälisille opiskelijoille.",
+							"Loi yksityiskohtaisia tietoresursseja yleisten kysymysten ja kulttuurierojen käsittelemiseksi.",
+							"Ennakoiti tietovajeita välttämällä oletuksia aiemmasta ymmärryksestä.",
+							"Aktiivisesti täytti tietovajeita opiskelijoille eri taustoista.",
+							"Kehitti saavutettavia resursseja varmistaakseen, ettei yksikään opiskelija jäänyt yksin kamppailemaan."
+						],
+						"showDescription": true
+							}
+						]
+					}
     ]
   },
   "education": {

@@ -88,68 +88,105 @@
           }
         ]
       },
-      {
-        "isHidden": false,
-        "mainRole": "Kitchen Assistant",
-        "company": "Barona",
-        "duration": {
-          "from": "2024-08",
-          "to": "present",
-          "icon": "calendar",
-          "showIcon": false
-        },
-        "address": {
-          "street": "Helsinki, Finland",
-          "postalCode": "00440",
-          "city": "Helsinki",
-          "countryCode": "FI",
-          "country": "Finland",
-          "text": "Helsinki, Finland",
-          "icon": "location",
-          "showIcon": true
-        },
-        "work": [
-          {
-            "role": "Partime Kitchen Assistant",
-            "showRole": false,
-            "description": [
-              "Assisting in food preparation and cooking."
-            ],
-            "showDescription": false
-          }
-        ]
-      },
-      {
-        "isHidden": false,
-        "mainRole": "Graphic Designer, Instructor, and Head of Administration",
-        "company": "Future IT Valley",
-        "duration": {
-          "from": "2021-04",
-          "to": "2023-11",
-          "icon": "calendar",
-          "showIcon": false
-        },
-        "address": {
-          "street": "Sylhet, Bangladesh",
-          "postalCode": "3100",
-          "city": "Sylhet",
-          "countryCode": "BD",
-          "country": "Bangladesh",
-          "text": "Sylhet, Bangladesh",
-          "icon": "location",
-          "showIcon": true
-        },
-        "work": [
-          {
-            "role": "Graphic Designer",
-            "showRole": false,
-            "description": [
-              "Graphic design, teaching, and managing administration."
-            ],
-            "showDescription": false
-          }
-        ]
-      }
+			{
+				"isHidden": false,
+				"mainRole": "Kitchen Assistant",
+				"company": "Barona",
+				"duration": {
+					"from": "2024-08",
+					"to": "present",
+					"icon": "calendar",
+					"showIcon": false
+				},
+				"address": {
+					"street": "Helsinki, Finland",
+					"postalCode": "00440",
+					"city": "Helsinki",
+					"countryCode": "FI",
+					"country": "Finland",
+					"text": "Helsinki, Finland",
+					"icon": "location",
+					"showIcon": true
+				},
+				"work": [
+					{
+				"role": "Part-time Kitchen Assistant",
+				"showRole": true,
+				"description": [
+					"Assisting in food preparation and cooking."
+				],
+				"showDescription": true
+					}
+				]
+			},
+			{
+				"isHidden": false,
+				"mainRole": "Graphic Designer, Instructor, and Head of Administration",
+				"company": "Future IT Valley",
+				"duration": {
+					"from": "2021-04",
+					"to": "2023-11",
+					"icon": "calendar",
+					"showIcon": false
+				},
+				"address": {
+					"street": "Sylhet, Bangladesh",
+					"postalCode": "3100",
+					"city": "Sylhet",
+					"countryCode": "BD",
+					"country": "Bangladesh",
+					"text": "Sylhet, Bangladesh",
+					"icon": "location",
+					"showIcon": true
+				},
+				"work": [
+					{
+				"role": "Graphic Designer",
+				"showRole": true,
+				"description": [
+					"Designed graphics for various projects and campaigns.",
+					"Provided instruction on graphic design tools and techniques.",
+					"Managed administrative tasks to ensure smooth operations."
+				],
+				"showDescription": true
+					}
+				]
+			},
+			{
+				"isHidden": false,
+				"mainRole": "Helga Tutor",
+				"company": "Haaga-Helia University of Applied Sciences",
+				"duration": {
+					"from": "2025-01",
+					"to": "present",
+					"icon": "calendar",
+					"showIcon": false
+				},
+				"address": {
+					"street": "Pasila, Helsinki",
+					"postalCode": "3100",
+					"city": "Helsinki",
+					"countryCode": "FI",
+					"country": "Finland",
+					"text": "Helsinki, Finland",
+					"icon": "location",
+					"showIcon": true
+				},
+				"work": [
+					{
+				"role": "Student Tutor",
+				"showRole": true,
+				"description": [
+					"Provided comprehensive academic support to diverse international students.",
+					"Created detailed knowledge resources addressing common questions and cultural differences.",
+					"Anticipated knowledge gaps by avoiding assumptions about prior understanding.",
+					"Proactively bridged information gaps for students from varied backgrounds.",
+					"Developed accessible resources ensuring no student struggled in isolation."
+				],
+				"showDescription": true
+					}
+				]
+			}
     ]
   },
   "education": {
