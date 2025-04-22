@@ -27,7 +27,7 @@ async function extractFullNameAndLocaleFromTitle(page) {
 
     // Check if the name contains any Finnish characters
     const isFinnish = finnishRegex.test(fullName);
-    locale = isFinnish ? 'el-GR' : 'en-US';
+    locale = isFinnish ? 'fi-FI' : 'en-US';
   }
 
   return { fullName, locale };

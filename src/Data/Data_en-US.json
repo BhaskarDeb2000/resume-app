@@ -76,7 +76,7 @@
         "work": [
           {
             "role": "Software Developer",
-            "showRole": true,
+            "showRole": false,
             "description": [
               "Developing and maintaining web applications using React, TypeScript, and Node.js.",
               "Participating in code reviews and ensuring code quality.",
@@ -89,7 +89,7 @@
         ]
       },
 			{
-				"isHidden": false,
+				"isHidden": true,
 				"mainRole": "Kitchen Assistant",
 				"company": "Barona",
 				"duration": {
@@ -120,7 +120,7 @@
 				]
 			},
 			{
-				"isHidden": false,
+				"isHidden": true,
 				"mainRole": "Graphic Designer, Instructor, and Head of Administration",
 				"company": "Future IT Valley",
 				"duration": {
@@ -175,7 +175,7 @@
 				"work": [
 					{
 				"role": "Student Tutor",
-				"showRole": true,
+				"showRole": false,
 				"description": [
 					"Provided comprehensive academic support to diverse international students.",
 					"Created detailed knowledge resources addressing common questions and cultural differences.",
