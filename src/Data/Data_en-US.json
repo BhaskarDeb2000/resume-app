@@ -4,7 +4,7 @@
     "name": "Bhaskar Deb",
     "role": "Full Stack Developer",
     "overallExperienceStartDate": "2017-08-01",
-    "bio": "Over one and a half years of experience in C, C++, JavaScript, and TypeScript. I specialize in creating efficient solutions and tackling complex challenges with a keen eye for detail.",
+    "bio": "Well experienced in C, C++, JavaScript, and TypeScript. I specialize in creating efficient solutions and tackling complex challenges with a keen eye for detail.",
     "showBio": true,
     "contact": [
       {
@@ -53,13 +53,46 @@
     "isHidden": false,
     "sectionTitle": "PROFESSIONAL EXPERIENCE",
     "entries": [
+{
+        "isHidden": false,
+        "mainRole": "Software Developer",
+        "company": "Steptask",
+        "duration": {
+          "from": "2025-05",
+          "to": "present",
+          "icon": "calendar",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Uusimaa, Finland",
+          "postalCode": "",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Finland",
+          "text": "Helsinki, Uusimaa, Finland · Remote",
+          "icon": "location",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "role": "Freelance Software Developer",
+            "showRole": true,
+            "description": [
+              "Developed scalable web apps with React, TypeScript, and Node.js; built multistep wizards and payment flows.",
+              "Refactored and merged feature branches, resolving complex conflicts.",
+              "Migrated legacy code and improved maintainability through component reuse."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
       {
         "isHidden": false,
         "mainRole": "Software Developer",
         "company": "Hobiver",
         "duration": {
           "from": "2025-03",
-          "to": "present",
+          "to": "2025-12",
           "icon": "calendar",
           "showIcon": false
         },
@@ -388,7 +421,12 @@
       "Windows",
       "Postman",
       "Bash",
-      "AWS"
+      "AWS",
+			"Python",
+			"Docker",
+			"GitLab",
+			"GitHub",
+			"GitLab CI/CD"
     ]
   },
   "interests": {

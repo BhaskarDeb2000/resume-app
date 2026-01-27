@@ -1,15 +1,22 @@
 .profile__section {
-  padding: var(--section-padding);
-  padding-bottom: 0;
+  padding: 0;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .profile__bio-wrapper {
-  text-align: center;
+  text-align: left;
 }
 
 .profile__name {
   font-size: var(--h1-font-size);
   font-weight: var(--font-bold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .profile__role {
@@ -27,16 +34,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  gap: 1.25rem;
 }
 
 .profile__picture-wrapper img {
-  width: 10rem;
-  border-radius: 50%;
-  border: 0.2rem solid var(--color-red);
+  width: 6.5rem;
+  /* Borderless square avatar instead of circular/oval */
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .profile__contacts-and-socials {
-  margin-top: 0.5rem;
+  margin-top: 0.375rem;
 }
 
 .profile__contacts-and-socials.without_sections {
@@ -52,7 +63,7 @@
 .profile__contacts-wrapper,
 .profile__socials-wrapper {
   display: flex;
-  padding: 0.5rem 0;
+  padding: 0.375rem 0;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
@@ -102,6 +113,22 @@
   margin-bottom: var(--mb-1);
 }
 
+/* Left sidebar colour treatment to match reference */
+.resume__left .profile__name,
+.resume__left .profile__role,
+.resume__left .profile__bio,
+.resume__left .profile__contact-text,
+.resume__left .profile__contact-text a,
+.resume__left .profile__social-text a,
+.resume__left .profile__social-heading {
+  color: #f9fafb;
+}
+
+.resume__left .profile__contact-icon svg,
+.resume__left .profile__social-icon svg {
+  color: #e5e7eb;
+}
+
 /* Expanded View sticky */
 .expanded-view #profile.sticky {
   position: sticky;
@@ -123,6 +150,15 @@
 
 /* Media query for mobile screens */
 @media screen and (max-width: 767.99px) {
+  .profile__bio-and-pic {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile__bio-wrapper {
+    text-align: center;
+  }
   #profile .profile__contacts-wrapper > .profile__contact,
   #profile .profile__socials-wrapper > .profile__social {
     max-width: 100%;

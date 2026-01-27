@@ -59,7 +59,7 @@
         "company": "Hobiver",
         "duration": {
           "from": "2025-03",
-          "to": "present",
+          "to": "2025-12",
           "icon": "kalenteri",
           "showIcon": false
         },
@@ -82,7 +82,40 @@
               "Osallistuminen koodikatselmointeihin ja koodin laadun varmistaminen.",
               "Vanhan koodin siirtäminen nykyaikaisiin kehyksiin ja kirjastoihin.",
               "Sovelluksen suorituskyvyn ja skaalautuvuuden optimointi.",
-              "RESTful API:en toteuttaminen ja kolmansien osapuolten palveluiden integrointi."
+              "RESTful API -rajapintojen toteuttaminen ja kolmansien osapuolten palveluiden integrointi."
+            ],
+            "showDescription": true
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "mainRole": "Ohjelmistokehittäjä",
+        "company": "Steptask",
+        "duration": {
+          "from": "2025-05",
+          "to": "present",
+          "icon": "kalenteri",
+          "showIcon": false
+        },
+        "address": {
+          "street": "Helsinki, Uusimaa, Suomi",
+          "postalCode": "",
+          "city": "Helsinki",
+          "countryCode": "FI",
+          "country": "Suomi",
+          "text": "Helsinki, Uusimaa, Suomi · Etätyö",
+          "icon": "sijainti",
+          "showIcon": true
+        },
+        "work": [
+          {
+            "role": "Freelance-ohjelmistokehittäjä",
+            "showRole": true,
+            "description": [
+              "Rakensi skaalautuvia web-sovelluksia käyttäen Reactia, TypeScriptiä ja Node.js:ää; toteutti monivaiheisia lomakkeita ja maksuprosesseja.",
+              "Refaktoroi ja yhdisti ominaisuushaaroja sekä ratkaisi monimutkaisia git-konflikteja.",
+              "Migroi vanhaa koodia ja paransi ylläpidettävyyttä komponenttien uudelleenkäytön avulla."
             ],
             "showDescription": true
           }

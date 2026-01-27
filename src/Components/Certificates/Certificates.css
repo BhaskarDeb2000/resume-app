@@ -20,7 +20,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 5px;
-  margin: 0.5rem 0;
+  margin: 0.375rem 0;
   font-style: normal;
 }
 
@@ -48,6 +48,18 @@
   text-align: right;
   flex-shrink: 0;
   white-space: nowrap;
+}
+
+/* Improve contrast for certificate content in dark sidebar */
+.resume__left .certificates__heading {
+  color: #70818c;
+}
+
+.resume__left .certificate__org,
+.resume__left .certificate__issued-on,
+.resume__left .certificate__sub-cert-info,
+.resume__left .certificate__sub-cert-issued-on {
+  color: #AAB9BF;
 }
 
 #resume .resume__left .certificate__time.section__timeentry-time {

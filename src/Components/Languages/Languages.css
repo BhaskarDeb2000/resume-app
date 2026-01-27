@@ -29,7 +29,21 @@
   padding: 0 0.5rem;
   color: var(--color-red);
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: var(--small-font-size);
+}
+
+/* Improve contrast for language section on dark sidebar */
+.resume__left .languages__heading {
+  color: #70818c;
+}
+
+.resume__left .languages__list li,
+.resume__left .languages__list li {
+  color: #AAB9BF;
+}
+
+.resume__left .languages__entry-info {
+  color: #AAB9BF;
 }
 
 /* Media query for mobile screens */

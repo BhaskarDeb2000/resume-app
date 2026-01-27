@@ -125,32 +125,30 @@ function WorkExperience({ workExperienceData }: WorkExperienceProps) {
                         </span>
                       )}
                     </div>
-                    <div
-                      className="workExp__company-location"
-                      style={{ display: 'none' }}
-                    >
-                      {exp.address.showIcon && (
-                        <span className="workExp__company-location-icon">
-                          {
-                            WORK_EXPERIENCE_ICONS[
-                              exp.address
-                                .icon as keyof typeof WORK_EXPERIENCE_ICONS
-                            ]
-                          }
-                        </span>
-                      )}
+                  </div>
+                  {exp.address.showIcon && (
+                    <div className="workExp__company-location">
+                      <span className="workExp__company-location-icon">
+                        {
+                          WORK_EXPERIENCE_ICONS[
+                            exp.address
+                              .icon as keyof typeof WORK_EXPERIENCE_ICONS
+                          ]
+                        }
+                      </span>
                       <span className="workExp__company-location-place">
-                        {exp.address.city}, {exp.address.country}
+                        {exp.address.text || `${exp.address.city}, ${exp.address.country}`}
                       </span>
                     </div>
-                  </div>
+                  )}
                 </div>
 
-                {exp.work.map((work, workIndex) => {
-                  const keyExpWorkId: string = `exp-${index}-work-${workIndex}`;
-                  return (
-                    <div className="workExp__work-wrapper" key={keyExpWorkId}>
-                      {work.showRole && work.role && (
+              {exp.work.map((work, workIndex) => {
+                const keyExpWorkId: string = `exp-${index}-work-${workIndex}`;
+                const hasMultipleRoles = exp.work.length > 1;
+                return (
+                  <div className="workExp__work-wrapper" key={keyExpWorkId}>
+                      {work.showRole && work.role && hasMultipleRoles && (
                         <div className="workExp__work-info">
                           <p className="workExp__work-role">{work.role}</p>
                         </div>

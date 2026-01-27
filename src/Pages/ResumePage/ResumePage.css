@@ -12,27 +12,85 @@
  * Resume Page Print Styles
  */
 @media print {
+  :root {
+    /* Compact base sizing so everything fits on a single A4 page */
+    --root-font-size: 9px;
+    --mb-1: 0.2rem;
+    --mb-2: 0.35rem;
+    --mb-3: 0.5rem;
+    --section-padding: 0.25rem 0 0;
+    --body-line-height: 1.1;
+  }
+
   html,
   body {
     width: 210mm;
     height: 297mm;
-
-    /* Make graphics B&W for printing */
-    /* Modern, Stylish Color Palette */
-    --resume-bg-color-alt: #1e3a8a; /* Deep Royal Blue */
-    --text-color-light: #16a34a; /* Vibrant Emerald Green */
-    --color-red: #dc2626; /* Bold Crimson Red */
-    --color-blue: #3b82f6; /* Bright Azure Blue */
+    margin: 0;
+    padding: 0;
   }
 
-  .main-page {
-    margin: 0;
-    border: initial;
-    border-radius: initial;
-    width: initial;
-    min-height: initial;
-    box-shadow: initial;
-    background: initial;
-    page-break-after: always;
+  #resume-container {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /**
+   * Force the print layout to match the current on‑screen design,
+   * in case older print styles are still being picked up.
+   */
+  #resume {
+    display: grid !important;
+    grid-template-columns: 32% 68% !important;
+    /* Occupy the full printable canvas */
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  #resume .resume__left,
+  #resume .resume__right {
+    padding: 0.85rem 1.1rem !important;
+  }
+
+  #resume .resume__left {
+    background-color: #020617 !important;
+    color: #f9fafb !important;
+  }
+
+  #resume .resume__right {
+    background-color: #ffffff !important;
+  }
+
+  /* Keep section blocks intact across page breaks as much as possible */
+  /* Allow sections to split across pages if needed to save space */
+  #resume .resume__left > section,
+  #resume .resume__right > section {
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+
+  /* Tighten common vertical blocks further */
+  #resume .workExp__entry,
+  #resume .education__entry,
+  #resume .project__entry {
+    margin-bottom: 0.35rem !important;
+  }
+
+  #resume ul {
+    margin-top: 0.15rem !important;
+    margin-bottom: 0.15rem !important;
+  }
+
+  /* Ask browsers to preserve on-screen colors as much as possible */
+  #resume,
+  #resume * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }

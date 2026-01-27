@@ -11,7 +11,7 @@
   color: var(--color-red);
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.375rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -19,12 +19,19 @@
 
 .tools__entry {
   background-color: var(--resume-bg-color-alt, #f7f9fb);
-  padding: 0.2rem 0.5rem;
+  padding: 0.15rem 0.4rem;
   border-radius: 0.25rem;
-  font-size: 0.85rem;
+  font-size: var(--small-font-size);
   white-space: nowrap;
 }
 
 .resume__left .tools__entry {
-  background: var(--resume-bg-color, #ffffff);
+  /* On the dark sidebar keep chips slightly lighter than the sidebar
+     and use the accent color for the label so they remain readable. */
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--color-red);
+}
+
+.resume__left .tools__heading {
+  color: #70818c;
 }

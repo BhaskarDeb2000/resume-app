@@ -10,7 +10,25 @@
   text-transform: uppercase;
   letter-spacing: 0.03rem;
   text-align: left;
-  margin-bottom: var(--mb-1);
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+
+#resume .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2px;
+  background-color: var(--color-red);
+  border-radius: 2px;
+}
+
+/* Ensure section titles on the dark left sidebar are readable */
+.resume__left .section-title {
+  color: #AAB9BF;
 }
 
 #resume .section__timeentry-time {
@@ -57,32 +75,60 @@
 
 .resume {
   display: grid;
-  grid-template-columns: 0.8fr 1fr;
-  grid-template-columns: 45% 55%;
+  /* Narrow, dark sidebar on the left + wider content area */
+  grid-template-columns: 32% 68%;
   background-color: var(--resume-bg-color, #ffffff);
-  box-shadow: 0 0 8px rgb(13 12 12 / 15%);
-  border: 1px solid var(--color-snow, #fffcff);
+  /* Card-like page with a soft drop shadow */
+  box-shadow:
+    0 0 0 1px rgba(15, 23, 42, 0.25),
+    0 35px 80px rgba(15, 23, 42, 0.55);
+  border-radius: 0;
+  border: none;
   margin: 0 auto;
   overflow: hidden;
   transition:
     background-color var(--rs-trans-duration) var(--rs-trans-timing-fn),
-    border-color var(--rs-trans-duration) var(--rs-trans-timing-fn);
+    border-color var(--rs-trans-duration) var(--rs-trans-timing-fn),
+    box-shadow var(--rs-trans-duration) var(--rs-trans-timing-fn);
+}
+
+@media print {
+  .resume {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+  }
 }
 
 .resume.resume-A4 {
   width: 793.7007874px; /* ~ 210mm */
-  height: 1122.519685px; /* ~ 297mm */
+  /* Let the content define the total height so it can span
+     multiple printed pages (e.g. two-page resume). */
+  height: auto;
+  overflow: visible;
 }
 
 .resume__left {
-  background-color: var(--resume-bg-color-alt, #f7f9fb);
+  /* Solid dark sidebar like the reference design */
+  background-color: var(--color-black, #020617);
+  color: #f9fafb;
   transition: background-color var(--rs-trans-duration)
     var(--rs-trans-timing-fn);
 }
 
 .resume__left,
 .resume__right {
-  padding: 0 1.25rem;
+  padding: 2rem 1.75rem;
+}
+
+.resume__left > section,
+.resume__right > section {
+  margin-bottom: 1.25rem;
+}
+
+.resume__left > section:last-child,
+.resume__right > section:last-child {
+  margin-bottom: 0;
 }
 
 /* Media query for mobile screens */
@@ -92,20 +138,29 @@
   }
 
   #resume {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
     height: auto;
   }
 
   #resume .resume__left,
   #resume .resume__right {
-    padding: 0 1rem;
+    padding: 1.5rem 1.25rem;
   }
 
   #resume .resume__left > section:last-child,
   #resume .resume__right > section:last-child {
     padding-bottom: 1.2rem;
+  }
+
+  #resume .resume__left > section,
+  #resume .resume__right > section {
+    margin-bottom: 1.5rem;
+  }
+
+  #resume .resume__left > section:last-child,
+  #resume .resume__right > section:last-child {
+    margin-bottom: 0;
   }
 
   #resume .section__timeentry-time {

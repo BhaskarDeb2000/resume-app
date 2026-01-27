@@ -9,6 +9,11 @@
 
 .education__entry {
   display: flex;
+  margin-bottom: 0.875rem;
+}
+
+.education__entry:last-child {
+  margin-bottom: 0;
 }
 
 .education__data {
@@ -20,13 +25,13 @@
   align-items: center;
   justify-content: space-between;
   gap: 5px;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.375rem 0;
 }
 
 .education__degree {
   font-weight: var(--font-bold);
   font-size: var(--h3-font-size);
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.375rem 0;
 }
 
 .education__period {
@@ -46,7 +51,24 @@
   justify-content: space-between;
   gap: 5px;
   font-weight: var(--font-normal);
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.375rem 0;
+}
+
+/* Improve contrast for the dark left sidebar */
+.resume__left .education__heading {
+  color: #70818c;
+}
+
+.resume__left
+  .education__section
+  .education__entry
+  .education__data
+  .education__degree,
+.resume__left .education__degree,
+.resume__left .education__period,
+.resume__left .education__score,
+.resume__left .education__name {
+  color: #AAB9BF;
 }
 
 /* Education - Left side */
