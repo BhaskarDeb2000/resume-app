@@ -16,7 +16,7 @@ import { HIDE_UNLESS_EXPANDED } from '@/constants';
 
 import '@/Components/Profile/Profile.css';
 
-import ProfilePic from '@/Assets/Images/Profile/profile.webp';
+import ProfilePic from '@/Assets/Images/Profile/profile.jpg';
 
 type ContactType = {
   type: string;
