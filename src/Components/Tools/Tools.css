@@ -29,7 +29,7 @@
   /* On the dark sidebar keep chips slightly lighter than the sidebar
      and use the accent color for the label so they remain readable. */
   background: rgba(148, 163, 184, 0.12);
-  color: var(--color-red);
+  color: var(--color-entry);
 }
 
 .resume__left .tools__heading {

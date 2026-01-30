@@ -5,7 +5,6 @@
 
 #resume .section-title {
   font-size: var(--h2-font-size);
-  color: var(--title-color);
   font-weight: var(--font-black);
   text-transform: uppercase;
   letter-spacing: 0.03rem;
@@ -22,13 +21,13 @@
   left: 0;
   width: 2.5rem;
   height: 2px;
-  background-color: var(--color-red);
+  background-color: var(#f3f3f5);
   border-radius: 2px;
 }
 
 /* Ensure section titles on the dark left sidebar are readable */
 .resume__left .section-title {
-  color: #AAB9BF;
+  color: #e9eef0;
 }
 
 #resume .section__timeentry-time {

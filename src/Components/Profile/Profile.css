@@ -39,7 +39,7 @@
 }
 
 .profile__picture-wrapper img {
-  width: 6.5rem;
+  width: 10rem;
   /* Borderless square avatar instead of circular/oval */
   border-radius: 0;
   border: none;
