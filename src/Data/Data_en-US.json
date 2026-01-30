@@ -370,6 +370,28 @@
             "linkTitle": "British Council"
           }
         ]
+      },
+       {
+        "isHidden": false,
+        "org": "Amazon Web Services",
+        "name": "Getting Started with DevOps on AWS",
+        "valid": {
+          "from": "2025-03",
+          "to": "present",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "Getting Started with DevOps on AWS",
+            "issuedOn": "2025-03-14",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+            "linkTitle": "Amazon Web Services"
+          }
+        ]
       }
     ]
   },

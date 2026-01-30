@@ -357,6 +357,28 @@
             "linkTitle": "British Council"
           }
         ]
+      },
+      {
+        "isHidden": false,
+        "org": "Amazon Web Services",
+        "name": "DevOpsin aloittaminen AWS:llä",
+        "valid": {
+          "from": "2025-03",
+          "to": "nykyinen",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "DevOpsin aloittaminen AWS:llä",
+            "issuedOn": "2025-03-14",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+            "linkTitle": "Amazon Web Services"
+          }
+        ]
       }
     ]
   },
