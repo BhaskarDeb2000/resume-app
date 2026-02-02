@@ -381,14 +381,58 @@
           "showCurrent": true
         },
         "showLink": false,
-        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+        "link": "https://drive.google.com/file/d/1p8ciSXUcea9ngzCn6d5UC8BDQMK5XnNU/view?usp=sharing",
         "displayType": "subsOnly",
         "subs": [
           {
             "isHidden": false,
             "name": "Getting Started with DevOps on AWS",
             "issuedOn": "2025-03-14",
-            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7306216576481968128/",
+            "link": "https://drive.google.com/file/d/1p8ciSXUcea9ngzCn6d5UC8BDQMK5XnNU/view?usp=sharing",
+            "linkTitle": "Amazon Web Services"
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "org": "Amazon Web Services",
+        "name": "Introduction to AWS Identity and Access Management (IAM)",
+        "valid": {
+          "from": "2025-06",
+          "to": "present",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://drive.google.com/file/d/1eG94InLsRTTM45n2HZ9ON2BPi6knwSQ9/view?usp=sharing",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "Introduction to AWS Identity and Access Management (IAM)",
+            "issuedOn": "2025-06-08",
+            "link": "https://drive.google.com/file/d/1eG94InLsRTTM45n2HZ9ON2BPi6knwSQ9/view?usp=sharing",
+            "linkTitle": "Amazon Web Services"
+          }
+        ]
+      },
+      {
+        "isHidden": false,
+        "org": "Amazon Web Services",
+        "name": "Amazon EC2 Basics",
+        "valid": {
+          "from": "2025-06",
+          "to": "present",
+          "showCurrent": true
+        },
+        "showLink": false,
+        "link": "https://drive.google.com/file/d/12ZALrcgBVvXvTisuJ-dsKQKuKNIHSsN3/view?usp=sharing",
+        "displayType": "subsOnly",
+        "subs": [
+          {
+            "isHidden": false,
+            "name": "Amazon EC2 Basics",
+            "issuedOn": "2025-06-08",
+            "link": "https://drive.google.com/file/d/12ZALrcgBVvXvTisuJ-dsKQKuKNIHSsN3/view?usp=sharing",
             "linkTitle": "Amazon Web Services"
           }
         ]
